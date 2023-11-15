@@ -1,0 +1,6517 @@
+[
+    {
+        "date": "2023-09-06",
+        "arrival": true,
+        "cargo": false,
+        "list": [
+            {
+                "time": "00:20",
+                "flight": [
+                    {
+                        "no": "UO 651",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 23:56 (05/09/2023)",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S35"
+            },
+            {
+                "time": "00:30",
+                "flight": [
+                    {
+                        "no": "HB 684",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "At gate 00:30",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N143"
+            },
+            {
+                "time": "01:15",
+                "flight": [
+                    {
+                        "no": "UO 627",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 00:52",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "01:30",
+                "flight": [
+                    {
+                        "no": "HB 662",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "At gate 01:15",
+                "statusCode": null,
+                "origin": [
+                    "SGN"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S108"
+            },
+            {
+                "time": "01:50",
+                "flight": [
+                    {
+                        "no": "HX 611",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7163",
+                        "airline": "AIC"
+                    },
+                    {
+                        "no": "BI 3404",
+                        "airline": "RBA"
+                    }
+                ],
+                "status": "At gate 01:25",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N34"
+            },
+            {
+                "time": "04:05",
+                "flight": [
+                    {
+                        "no": "UO 765",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5765",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 03:56",
+                "statusCode": null,
+                "origin": [
+                    "HKT"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S111"
+            },
+            {
+                "time": "04:40",
+                "flight": [
+                    {
+                        "no": "UO 623",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 04:45",
+                "statusCode": null,
+                "origin": [
+                    "HND"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S107"
+            },
+            {
+                "time": "05:00",
+                "flight": [
+                    {
+                        "no": "CX 811",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 04:42",
+                "statusCode": null,
+                "origin": [
+                    "BOS"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S33"
+            },
+            {
+                "time": "05:00",
+                "flight": [
+                    {
+                        "no": "CX 829",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 04:29",
+                "statusCode": null,
+                "origin": [
+                    "YYZ"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N26"
+            },
+            {
+                "time": "05:00",
+                "flight": [
+                    {
+                        "no": "UA 877",
+                        "airline": "UAL"
+                    }
+                ],
+                "status": "At gate 05:14",
+                "statusCode": null,
+                "origin": [
+                    "SFO"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N8"
+            },
+            {
+                "time": "05:10",
+                "flight": [
+                    {
+                        "no": "CX 138",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "OM 5602",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "AY 5112",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QR 3493",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "BA 4134",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LX 9502",
+                        "airline": "SWR"
+                    }
+                ],
+                "status": "At gate 04:48",
+                "statusCode": null,
+                "origin": [
+                    "SYD"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N5"
+            },
+            {
+                "time": "05:15",
+                "flight": [
+                    {
+                        "no": "CX 676",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 05:58",
+                "statusCode": null,
+                "origin": [
+                    "TLV"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S43"
+            },
+            {
+                "time": "05:40",
+                "flight": [
+                    {
+                        "no": "HX 780",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "TK 9222",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "At gate 05:48",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R17"
+            },
+            {
+                "time": "05:40",
+                "flight": [
+                    {
+                        "no": "CX 843",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9211",
+                        "airline": "MAS"
+                    }
+                ],
+                "status": "At gate 05:13",
+                "statusCode": null,
+                "origin": [
+                    "JFK"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "05:45",
+                "flight": [
+                    {
+                        "no": "CX 883",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9193",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "AA 8936",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 05:27",
+                "statusCode": null,
+                "origin": [
+                    "LAX"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S27"
+            },
+            {
+                "time": "05:50",
+                "flight": [
+                    {
+                        "no": "CX 714",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "OM 5732",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "AA 8902",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 05:50",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N9"
+            },
+            {
+                "time": "05:55",
+                "flight": [
+                    {
+                        "no": "CX 270",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 06:27",
+                "statusCode": null,
+                "origin": [
+                    "AMS"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W63"
+            },
+            {
+                "time": "06:00",
+                "flight": [
+                    {
+                        "no": "CX 748",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7900",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 06:35",
+                "statusCode": null,
+                "origin": [
+                    "JNB"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W46"
+            },
+            {
+                "time": "06:00",
+                "flight": [
+                    {
+                        "no": "CX 873",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9183",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "AA 8931",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 05:21",
+                "statusCode": null,
+                "origin": [
+                    "SFO"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S31"
+            },
+            {
+                "time": "06:05",
+                "flight": [
+                    {
+                        "no": "CX 798",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3489",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AA 8918",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 06:04",
+                "statusCode": null,
+                "origin": [
+                    "CGK"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "06:25",
+                "flight": [
+                    {
+                        "no": "CX 640",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 07:10",
+                "statusCode": null,
+                "origin": [
+                    "KTM"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W44"
+            },
+            {
+                "time": "06:45",
+                "flight": [
+                    {
+                        "no": "CX 260",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 07:15",
+                "statusCode": null,
+                "origin": [
+                    "CDG"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W69"
+            },
+            {
+                "time": "06:45",
+                "flight": [
+                    {
+                        "no": "CX 881",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9191",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "AA 8934",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 06:20",
+                "statusCode": null,
+                "origin": [
+                    "LAX"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S110"
+            },
+            {
+                "time": "06:50",
+                "flight": [
+                    {
+                        "no": "CX 698",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7932",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "OM 5752",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "QF 8220",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "AA 8885",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 06:15",
+                "statusCode": null,
+                "origin": [
+                    "DEL"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N62"
+            },
+            {
+                "time": "06:55",
+                "flight": [
+                    {
+                        "no": "CX 178",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3488",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AY 5844",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "OM 5612",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "BA 4140",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LX 9510",
+                        "airline": "SWR"
+                    }
+                ],
+                "status": "At gate 06:39",
+                "statusCode": null,
+                "origin": [
+                    "MEL"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W48"
+            },
+            {
+                "time": "07:10",
+                "flight": [
+                    {
+                        "no": "CX 288",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "LH 7014",
+                        "airline": "DLH"
+                    }
+                ],
+                "status": "At gate 07:37",
+                "statusCode": null,
+                "origin": [
+                    "FRA"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "07:15",
+                "flight": [
+                    {
+                        "no": "GA 876",
+                        "airline": "GIA"
+                    },
+                    {
+                        "no": "HX 1946",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 07:27",
+                "statusCode": null,
+                "origin": [
+                    "CGK"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N10"
+            },
+            {
+                "time": "07:30",
+                "flight": [
+                    {
+                        "no": "CX 156",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7906",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AY 5850",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QR 3486",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "OM 5632",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "BA 4146",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "At gate 09:15",
+                "statusCode": null,
+                "origin": [
+                    "BNE"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S41"
+            },
+            {
+                "time": "07:30",
+                "flight": [
+                    {
+                        "no": "CX 170",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "OM 5622",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "JL 7904",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AY 5846",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QF 8237",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "At gate 08:01",
+                "statusCode": null,
+                "origin": [
+                    "PER"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N36"
+            },
+            {
+                "time": "07:40",
+                "flight": [
+                    {
+                        "no": "CX 252",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 08:36",
+                "statusCode": null,
+                "origin": [
+                    "LHR"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S31"
+            },
+            {
+                "time": "08:05",
+                "flight": [
+                    {
+                        "no": "CX 662",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 08:35",
+                "statusCode": null,
+                "origin": [
+                    "DAC"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S29"
+            },
+            {
+                "time": "08:10",
+                "flight": [
+                    {
+                        "no": "5J 272",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "At gate 08:44",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S35"
+            },
+            {
+                "time": "08:30",
+                "flight": [
+                    {
+                        "no": "5J 150",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "At gate 08:10",
+                "statusCode": null,
+                "origin": [
+                    "CRK"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W50"
+            },
+            {
+                "time": "08:50",
+                "flight": [
+                    {
+                        "no": "BR 891",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1819",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 08:54",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S33"
+            },
+            {
+                "time": "09:10",
+                "flight": [
+                    {
+                        "no": "CX 449",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 09:06",
+                "statusCode": null,
+                "origin": [
+                    "KHH"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R20"
+            },
+            {
+                "time": "09:10",
+                "flight": [
+                    {
+                        "no": "CX 694",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7908",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "OM 5751",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "QF 8218",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "AA 8944",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 10:41",
+                "statusCode": null,
+                "origin": [
+                    "DEL"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "09:45",
+                "flight": [
+                    {
+                        "no": "5J 110",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "At gate 09:40",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S49"
+            },
+            {
+                "time": "09:45",
+                "flight": [
+                    {
+                        "no": "FD 515",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "At gate 09:38",
+                "statusCode": null,
+                "origin": [
+                    "CNX"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N68"
+            },
+            {
+                "time": "09:50",
+                "flight": [
+                    {
+                        "no": "CX 660",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7912",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "OM 5624",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "AA 8945",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "QF 8214",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "At gate 09:57",
+                "statusCode": null,
+                "origin": [
+                    "BOM"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S25"
+            },
+            {
+                "time": "09:55",
+                "flight": [
+                    {
+                        "no": "CX 407",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 09:38",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W65"
+            },
+            {
+                "time": "10:05",
+                "flight": [
+                    {
+                        "no": "TR 980",
+                        "airline": "TGW"
+                    }
+                ],
+                "status": "At gate 09:50",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "10:05",
+                "flight": [
+                    {
+                        "no": "CI 903",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "At gate 10:14",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N10"
+            },
+            {
+                "time": "10:10",
+                "flight": [
+                    {
+                        "no": "PR 300",
+                        "airline": "PAL"
+                    }
+                ],
+                "status": "At gate 10:08",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W40"
+            },
+            {
+                "time": "10:10",
+                "flight": [
+                    {
+                        "no": "CX 624",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 10:44",
+                "statusCode": null,
+                "origin": [
+                    "BLR"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N60"
+            },
+            {
+                "time": "10:10",
+                "flight": [
+                    {
+                        "no": "FD 508",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "At gate 10:14",
+                "statusCode": null,
+                "origin": [
+                    "DMK"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N66"
+            },
+            {
+                "time": "10:15",
+                "flight": [
+                    {
+                        "no": "HX 231",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8510",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 10:37",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N34"
+            },
+            {
+                "time": "10:15",
+                "flight": [
+                    {
+                        "no": "UO 625",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 09:47",
+                "statusCode": null,
+                "origin": [
+                    "HND"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R15"
+            },
+            {
+                "time": "10:30",
+                "flight": [
+                    {
+                        "no": "KL 887",
+                        "airline": "KLM"
+                    },
+                    {
+                        "no": "AF 8405",
+                        "airline": "AFR"
+                    }
+                ],
+                "status": "At gate 10:32",
+                "statusCode": null,
+                "origin": [
+                    "AMS"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N7"
+            },
+            {
+                "time": "10:30",
+                "flight": [
+                    {
+                        "no": "CX 912",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 10:30",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S1"
+            },
+            {
+                "time": "10:30",
+                "flight": [
+                    {
+                        "no": "MU 765",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3025",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "At gate 10:14",
+                "statusCode": null,
+                "origin": [
+                    "NKG"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W42"
+            },
+            {
+                "time": "10:40",
+                "flight": [
+                    {
+                        "no": "CX 738",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 10:35",
+                "statusCode": null,
+                "origin": [
+                    "DXB"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N9"
+            },
+            {
+                "time": "10:50",
+                "flight": [
+                    {
+                        "no": "HO 1301",
+                        "airline": "DKH"
+                    }
+                ],
+                "status": "At gate 11:14",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S33"
+            },
+            {
+                "time": "10:55",
+                "flight": [
+                    {
+                        "no": "HX 129",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8517",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 11:14",
+                "statusCode": null,
+                "origin": [
+                    "HGH"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N32"
+            },
+            {
+                "time": "11:00",
+                "flight": [
+                    {
+                        "no": "KE 171",
+                        "airline": "KAL"
+                    },
+                    {
+                        "no": "DL 7886",
+                        "airline": "DAL"
+                    }
+                ],
+                "status": "At gate 11:05",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N24"
+            },
+            {
+                "time": "11:00",
+                "flight": [
+                    {
+                        "no": "MU 721",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3001",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "At gate 10:53",
+                "statusCode": null,
+                "origin": [
+                    "SHA"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S23"
+            },
+            {
+                "time": "11:05",
+                "flight": [
+                    {
+                        "no": "CX 345",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6507",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 10:59",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W63"
+            },
+            {
+                "time": "11:10",
+                "flight": [
+                    {
+                        "no": "7C 2103",
+                        "airline": "JJA"
+                    }
+                ],
+                "status": "At gate 11:11",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N26"
+            },
+            {
+                "time": "11:10",
+                "flight": [
+                    {
+                        "no": "CX 917",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6529",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 10:46",
+                "statusCode": null,
+                "origin": [
+                    "TFU"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R21"
+            },
+            {
+                "time": "11:15",
+                "flight": [
+                    {
+                        "no": "AK 138",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "At gate 11:36",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N68"
+            },
+            {
+                "time": "11:15",
+                "flight": [
+                    {
+                        "no": "CA 101",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 10:59",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W50"
+            },
+            {
+                "time": "11:20",
+                "flight": [
+                    {
+                        "no": "SQ 874",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "At gate 11:24",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "11:20",
+                "flight": [
+                    {
+                        "no": "CA 411",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6121",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 11:04",
+                "statusCode": null,
+                "origin": [
+                    "TFU"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W48"
+            },
+            {
+                "time": "11:25",
+                "flight": [
+                    {
+                        "no": "OZ 721",
+                        "airline": "AAR"
+                    }
+                ],
+                "status": "At gate 11:52",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S47"
+            },
+            {
+                "time": "11:25",
+                "flight": [
+                    {
+                        "no": "CX 361",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 11:21",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S11"
+            },
+            {
+                "time": "11:30",
+                "flight": [
+                    {
+                        "no": "CX 983",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 11:29",
+                "statusCode": null,
+                "origin": [
+                    "CAN"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N66"
+            },
+            {
+                "time": "11:30",
+                "flight": [
+                    {
+                        "no": "UO 227",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5227",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 12:06",
+                "statusCode": null,
+                "origin": [
+                    "NGB"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R16"
+            },
+            {
+                "time": "11:30",
+                "flight": [
+                    {
+                        "no": "MF 8655",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "At gate 11:21",
+                "statusCode": null,
+                "origin": [
+                    "HGH"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W44"
+            },
+            {
+                "time": "11:40",
+                "flight": [
+                    {
+                        "no": "CZ 3075",
+                        "airline": "CSN"
+                    }
+                ],
+                "status": "At gate 11:16",
+                "statusCode": null,
+                "origin": [
+                    "WUH"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S35"
+            },
+            {
+                "time": "11:45",
+                "flight": [
+                    {
+                        "no": "MU 2067",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "At gate 10:56",
+                "statusCode": null,
+                "origin": [
+                    "HFE"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S27"
+            },
+            {
+                "time": "11:45",
+                "flight": [
+                    {
+                        "no": "TG 600",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "AC 7408",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "NZ 4198",
+                        "airline": "ANZ"
+                    },
+                    {
+                        "no": "TK 8012",
+                        "airline": "THY"
+                    },
+                    {
+                        "no": "WE 5600",
+                        "airline": "THD"
+                    },
+                    {
+                        "no": "WY 5902",
+                        "airline": "OMA"
+                    }
+                ],
+                "status": "At gate 11:48",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N62"
+            },
+            {
+                "time": "11:50",
+                "flight": [
+                    {
+                        "no": "CA 103",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6103",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 11:26",
+                "statusCode": null,
+                "origin": [
+                    "TSN"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S29"
+            },
+            {
+                "time": "11:50",
+                "flight": [
+                    {
+                        "no": "MU 5017",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3021",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "At gate 12:12",
+                "statusCode": null,
+                "origin": [
+                    "SHA"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S31"
+            },
+            {
+                "time": "11:50",
+                "flight": [
+                    {
+                        "no": "MF 381",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "At gate 12:42",
+                "statusCode": null,
+                "origin": [
+                    "XMN"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W46"
+            },
+            {
+                "time": "11:55",
+                "flight": [
+                    {
+                        "no": "ZH 9091",
+                        "airline": "CSZ"
+                    },
+                    {
+                        "no": "CX 6247",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 3855",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 11:39",
+                "statusCode": null,
+                "origin": [
+                    "JJN"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N36"
+            },
+            {
+                "time": "12:00",
+                "flight": [
+                    {
+                        "no": "UO 193",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5193",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 11:57",
+                "statusCode": null,
+                "origin": [
+                    "RMQ"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R14"
+            },
+            {
+                "time": "12:05",
+                "flight": [
+                    {
+                        "no": "TR 986",
+                        "airline": "TGW"
+                    }
+                ],
+                "status": "At gate 11:49",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "12:10",
+                "flight": [
+                    {
+                        "no": "BR 867",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1823",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 12:26",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S43"
+            },
+            {
+                "time": "12:10",
+                "flight": [
+                    {
+                        "no": "HX 617",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 12:12",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N70"
+            },
+            {
+                "time": "12:10",
+                "flight": [
+                    {
+                        "no": "CX 700",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5854",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AY 5102",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "FJ 5455",
+                        "airline": "FJI"
+                    },
+                    {
+                        "no": "PG 4553",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "AA 8893",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 12:10",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W71"
+            },
+            {
+                "time": "12:15",
+                "flight": [
+                    {
+                        "no": "CX 238",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 12:38",
+                "statusCode": null,
+                "origin": [
+                    "LHR"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W65"
+            },
+            {
+                "time": "12:15",
+                "flight": [
+                    {
+                        "no": "CX 597",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7051",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5847",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 11:49",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N64"
+            },
+            {
+                "time": "12:15",
+                "flight": [
+                    {
+                        "no": "HU 7953",
+                        "airline": "CHH"
+                    },
+                    {
+                        "no": "HX 1203",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 11:47",
+                "statusCode": null,
+                "origin": [
+                    "XIY"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W121L"
+            },
+            {
+                "time": "12:20",
+                "flight": [
+                    {
+                        "no": "9C 8715",
+                        "airline": "CQH"
+                    }
+                ],
+                "status": "At gate 11:55",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W40"
+            },
+            {
+                "time": "12:20",
+                "flight": [
+                    {
+                        "no": "CZ 309",
+                        "airline": "CSN"
+                    }
+                ],
+                "status": "At gate 12:00",
+                "statusCode": null,
+                "origin": [
+                    "PKX"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N8"
+            },
+            {
+                "time": "12:25",
+                "flight": [
+                    {
+                        "no": "CX 730",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9188",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "AC 9795",
+                        "airline": "ACA"
+                    }
+                ],
+                "status": "At gate 12:43",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N26"
+            },
+            {
+                "time": "12:25",
+                "flight": [
+                    {
+                        "no": "UO 551",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 13:08",
+                "statusCode": null,
+                "origin": [
+                    "HAN"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R20"
+            },
+            {
+                "time": "12:30",
+                "flight": [
+                    {
+                        "no": "CX 365",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 12:23",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "12:30",
+                "flight": [
+                    {
+                        "no": "NH 859",
+                        "airline": "ANA"
+                    },
+                    {
+                        "no": "UA 7907",
+                        "airline": "UAL"
+                    }
+                ],
+                "status": "At gate 12:02",
+                "statusCode": null,
+                "origin": [
+                    "HND"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N30"
+            },
+            {
+                "time": "12:40",
+                "flight": [
+                    {
+                        "no": "SC 4789",
+                        "airline": "CDG"
+                    }
+                ],
+                "status": "At gate 12:08",
+                "statusCode": null,
+                "origin": [
+                    "TNA"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S25"
+            },
+            {
+                "time": "12:55",
+                "flight": [
+                    {
+                        "no": "CI 909",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "At gate 12:54",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "12:55",
+                "flight": [
+                    {
+                        "no": "CX 489",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 13:04",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N9"
+            },
+            {
+                "time": "13:00",
+                "flight": [
+                    {
+                        "no": "TW 9117",
+                        "airline": "TWB"
+                    }
+                ],
+                "status": "At gate 12:50",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W42"
+            },
+            {
+                "time": "13:00",
+                "flight": [
+                    {
+                        "no": "CX 417",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QF 8228",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "At gate 12:29",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W67"
+            },
+            {
+                "time": "13:00",
+                "flight": [
+                    {
+                        "no": "CX 431",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 13:08",
+                "statusCode": null,
+                "origin": [
+                    "KHH"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N34"
+            },
+            {
+                "time": "13:05",
+                "flight": [
+                    {
+                        "no": "CA 111",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6111",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 13:01",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N24"
+            },
+            {
+                "time": "13:05",
+                "flight": [
+                    {
+                        "no": "CX 503",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7053",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 3459",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 12:46",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S2"
+            },
+            {
+                "time": "13:05",
+                "flight": [
+                    {
+                        "no": "MU 701",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "Cancelled",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "",
+                "hall": "",
+                "terminal": "",
+                "stand": ""
+            },
+            {
+                "time": "13:10",
+                "flight": [
+                    {
+                        "no": "UO 821",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5821",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 13:12",
+                "statusCode": null,
+                "origin": [
+                    "OKA"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N60"
+            },
+            {
+                "time": "13:15",
+                "flight": [
+                    {
+                        "no": "CX 509",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5857",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7041",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 12:50",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S3"
+            },
+            {
+                "time": "13:15",
+                "flight": [
+                    {
+                        "no": "MH 072",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "CX 6000",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AY 6632",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "FY 7050",
+                        "airline": "FFM"
+                    },
+                    {
+                        "no": "WY 5772",
+                        "airline": "OMA"
+                    },
+                    {
+                        "no": "UL 2772",
+                        "airline": "ALK"
+                    }
+                ],
+                "status": "At gate 14:31",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "13:20",
+                "flight": [
+                    {
+                        "no": "HX 607",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 13:20",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R18"
+            },
+            {
+                "time": "13:20",
+                "flight": [
+                    {
+                        "no": "HX 706",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "GA 9770",
+                        "airline": "GIA"
+                    }
+                ],
+                "status": "At gate 13:15",
+                "statusCode": null,
+                "origin": [
+                    "DPS"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N68"
+            },
+            {
+                "time": "13:20",
+                "flight": [
+                    {
+                        "no": "CX 906",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 13:14",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R13"
+            },
+            {
+                "time": "13:25",
+                "flight": [
+                    {
+                        "no": "CX 995",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 17:59",
+                "statusCode": null,
+                "origin": [
+                    "FOC"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N10"
+            },
+            {
+                "time": "13:30",
+                "flight": [
+                    {
+                        "no": "ZH 9085",
+                        "airline": "CSZ"
+                    }
+                ],
+                "status": "At gate 13:19",
+                "statusCode": null,
+                "origin": [
+                    "NTG"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S27"
+            },
+            {
+                "time": "13:30",
+                "flight": [
+                    {
+                        "no": "JL 029",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "CX 6321",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "HA 5001",
+                        "airline": "HAL"
+                    }
+                ],
+                "status": "At gate 14:00",
+                "statusCode": null,
+                "origin": [
+                    "HND"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N7"
+            },
+            {
+                "time": "13:40",
+                "flight": [
+                    {
+                        "no": "CX 250",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 13:50",
+                "statusCode": null,
+                "origin": [
+                    "LHR"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N5"
+            },
+            {
+                "time": "13:40",
+                "flight": [
+                    {
+                        "no": "BA 031",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "At gate 14:54",
+                "statusCode": null,
+                "origin": [
+                    "LHR"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N26"
+            },
+            {
+                "time": "13:40",
+                "flight": [
+                    {
+                        "no": "HB 503",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "At gate 13:31",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S109"
+            },
+            {
+                "time": "13:45",
+                "flight": [
+                    {
+                        "no": "HX 679",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 13:32",
+                "statusCode": null,
+                "origin": [
+                    "OKA"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R17"
+            },
+            {
+                "time": "13:50",
+                "flight": [
+                    {
+                        "no": "CX 543",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7031",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5841",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 13:14",
+                "statusCode": null,
+                "origin": [
+                    "HND"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N66"
+            },
+            {
+                "time": "13:50",
+                "flight": [
+                    {
+                        "no": "CX 937",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6536",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 13:50",
+                "statusCode": null,
+                "origin": [
+                    "WUH"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S35"
+            },
+            {
+                "time": "13:50",
+                "flight": [
+                    {
+                        "no": "CX 973",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 14:36",
+                "statusCode": null,
+                "origin": [
+                    "XMN"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R15"
+            },
+            {
+                "time": "13:55",
+                "flight": [
+                    {
+                        "no": "SQ 892",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "At gate 14:06",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S23"
+            },
+            {
+                "time": "14:00",
+                "flight": [
+                    {
+                        "no": "CX 841",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9187",
+                        "airline": "MAS"
+                    }
+                ],
+                "status": "At gate 13:42",
+                "statusCode": null,
+                "origin": [
+                    "JFK"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N62"
+            },
+            {
+                "time": "14:00",
+                "flight": [
+                    {
+                        "no": "CX 959",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6523",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 13:49",
+                "statusCode": null,
+                "origin": [
+                    "HGH"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R19"
+            },
+            {
+                "time": "14:05",
+                "flight": [
+                    {
+                        "no": "MU 507",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3007",
+                        "airline": "CSH"
+                    },
+                    {
+                        "no": "HO 3503",
+                        "airline": "DKH"
+                    }
+                ],
+                "status": "At gate 14:05",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W44"
+            },
+            {
+                "time": "14:10",
+                "flight": [
+                    {
+                        "no": "CX 658",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "FJ 5459",
+                        "airline": "FJI"
+                    },
+                    {
+                        "no": "AA 8890",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "AY 5134",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "OM 5618",
+                        "airline": "MGL"
+                    }
+                ],
+                "status": "At gate 14:32",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N64"
+            },
+            {
+                "time": "14:15",
+                "flight": [
+                    {
+                        "no": "CX 363",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 14:24",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N8"
+            },
+            {
+                "time": "14:15",
+                "flight": [
+                    {
+                        "no": "OD 605",
+                        "airline": "MXD"
+                    }
+                ],
+                "status": "At gate 14:48",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N60"
+            },
+            {
+                "time": "14:20",
+                "flight": [
+                    {
+                        "no": "CX 718",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3468",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AA 8904",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 14:22",
+                "statusCode": null,
+                "origin": [
+                    "CGK"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W63"
+            },
+            {
+                "time": "14:20",
+                "flight": [
+                    {
+                        "no": "CX 780",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3480",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7920",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8957",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "BA 4570",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "At gate 14:17",
+                "statusCode": null,
+                "origin": [
+                    "SUB"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S25"
+            },
+            {
+                "time": "14:20",
+                "flight": [
+                    {
+                        "no": "VN 594",
+                        "airline": "HVN"
+                    }
+                ],
+                "status": "At gate 14:07",
+                "statusCode": null,
+                "origin": [
+                    "SGN"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N10"
+            },
+            {
+                "time": "14:25",
+                "flight": [
+                    {
+                        "no": "CA 419",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6129",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 13:59",
+                "statusCode": null,
+                "origin": [
+                    "CKG"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W40"
+            },
+            {
+                "time": "14:25",
+                "flight": [
+                    {
+                        "no": "BR 869",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1825",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 14:33",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N32"
+            },
+            {
+                "time": "14:30",
+                "flight": [
+                    {
+                        "no": "HX 253",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "BR 2897",
+                        "airline": "EVA"
+                    }
+                ],
+                "status": "At gate 14:09",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S11"
+            },
+            {
+                "time": "14:35",
+                "flight": [
+                    {
+                        "no": "FD 500",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "At gate 14:43",
+                "statusCode": null,
+                "origin": [
+                    "DMK"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "14:40",
+                "flight": [
+                    {
+                        "no": "CX 501",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3458",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7043",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 13:59",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S31"
+            },
+            {
+                "time": "14:40",
+                "flight": [
+                    {
+                        "no": "CZ 635",
+                        "airline": "CSN"
+                    }
+                ],
+                "status": "At gate 14:15",
+                "statusCode": null,
+                "origin": [
+                    "SHE"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W50"
+            },
+            {
+                "time": "14:45",
+                "flight": [
+                    {
+                        "no": "HX 237",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8358",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 14:35",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W48"
+            },
+            {
+                "time": "14:50",
+                "flight": [
+                    {
+                        "no": "UO 705",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 15:06",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "14:55",
+                "flight": [
+                    {
+                        "no": "MU 503",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "At gate 14:47",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W46"
+            },
+            {
+                "time": "15:00",
+                "flight": [
+                    {
+                        "no": "CX 750",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5850",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AY 5859",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "OM 5638",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "AC 9764",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "PG 4559",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "AA 8908",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 15:27",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S43"
+            },
+            {
+                "time": "15:00",
+                "flight": [
+                    {
+                        "no": "UO 847",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5847",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 14:47",
+                "statusCode": null,
+                "origin": [
+                    "KOJ"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D310L"
+            },
+            {
+                "time": "15:05",
+                "flight": [
+                    {
+                        "no": "CX 766",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QF 8244",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "JL 7928",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "VN 3562",
+                        "airline": "HVN"
+                    },
+                    {
+                        "no": "AY 5104",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "BA 4558",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "AC 9768",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "QR 3482",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AA 8909",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "OM 5610",
+                        "airline": "MGL"
+                    }
+                ],
+                "status": "At gate 15:08",
+                "statusCode": null,
+                "origin": [
+                    "SGN"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N24"
+            },
+            {
+                "time": "15:05",
+                "flight": [
+                    {
+                        "no": "QR 818",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "WY 6064",
+                        "airline": "OMA"
+                    },
+                    {
+                        "no": "BA 2355",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "CX 9202",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "IB 7925",
+                        "airline": "IBE"
+                    },
+                    {
+                        "no": "LA 6038",
+                        "airline": "LAN"
+                    },
+                    {
+                        "no": "JU 8319",
+                        "airline": "ASL"
+                    }
+                ],
+                "status": "At gate 15:20",
+                "statusCode": null,
+                "origin": [
+                    "DOH"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W42"
+            },
+            {
+                "time": "15:10",
+                "flight": [
+                    {
+                        "no": "CX 608",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 15:03",
+                "statusCode": null,
+                "origin": [
+                    "PNH"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R21"
+            },
+            {
+                "time": "15:10",
+                "flight": [
+                    {
+                        "no": "CX 922",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "PR 3202",
+                        "airline": "PAL"
+                    },
+                    {
+                        "no": "AC 9766",
+                        "airline": "ACA"
+                    }
+                ],
+                "status": "At gate 15:34",
+                "statusCode": null,
+                "origin": [
+                    "CEB"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W67"
+            },
+            {
+                "time": "15:15",
+                "flight": [
+                    {
+                        "no": "CX 930",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AC 9786",
+                        "airline": "ACA"
+                    }
+                ],
+                "status": "At gate 15:04",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S2"
+            },
+            {
+                "time": "15:20",
+                "flight": [
+                    {
+                        "no": "CX 495",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 15:16",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S41"
+            },
+            {
+                "time": "15:25",
+                "flight": [
+                    {
+                        "no": "LH 796",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "CX 6798",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "NZ 4212",
+                        "airline": "ANZ"
+                    }
+                ],
+                "status": "At gate 16:14",
+                "statusCode": null,
+                "origin": [
+                    "FRA"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N36"
+            },
+            {
+                "time": "15:30",
+                "flight": [
+                    {
+                        "no": "CX 256",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 15:51",
+                "statusCode": null,
+                "origin": [
+                    "LHR"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S33"
+            },
+            {
+                "time": "15:30",
+                "flight": [
+                    {
+                        "no": "UO 111",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 15:21",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R16"
+            },
+            {
+                "time": "15:30",
+                "flight": [
+                    {
+                        "no": "UO 601",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 15:14",
+                "statusCode": null,
+                "origin": [
+                    "FUK"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S47"
+            },
+            {
+                "time": "15:30",
+                "flight": [
+                    {
+                        "no": "UO 619",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 15:37",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R13"
+            },
+            {
+                "time": "15:35",
+                "flight": [
+                    {
+                        "no": "UQ 2637",
+                        "airline": "CUH"
+                    }
+                ],
+                "status": "At gate 17:08",
+                "statusCode": null,
+                "origin": [
+                    "URC"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "15:45",
+                "flight": [
+                    {
+                        "no": "CI 931",
+                        "airline": "CAL"
+                    },
+                    {
+                        "no": "AE 5311",
+                        "airline": "MDA"
+                    }
+                ],
+                "status": "At gate 15:38",
+                "statusCode": null,
+                "origin": [
+                    "KHH"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N30"
+            },
+            {
+                "time": "15:45",
+                "flight": [
+                    {
+                        "no": "HX 162",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8081",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Cancelled",
+                "statusCode": null,
+                "origin": [
+                    "SYX"
+                ],
+                "baggage": "",
+                "hall": "",
+                "terminal": "",
+                "stand": ""
+            },
+            {
+                "time": "15:50",
+                "flight": [
+                    {
+                        "no": "UO 761",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 16:11",
+                "statusCode": null,
+                "origin": [
+                    "HKT"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D310R"
+            },
+            {
+                "time": "15:55",
+                "flight": [
+                    {
+                        "no": "CA 105",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6105",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 15:27",
+                "statusCode": null,
+                "origin": [
+                    "DLC"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N70"
+            },
+            {
+                "time": "15:55",
+                "flight": [
+                    {
+                        "no": "CA 427",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6127",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 15:58",
+                "statusCode": null,
+                "origin": [
+                    "TFU"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "15:55",
+                "flight": [
+                    {
+                        "no": "GJ 8053",
+                        "airline": "CDC"
+                    }
+                ],
+                "status": "At gate 15:51",
+                "statusCode": null,
+                "origin": [
+                    "HGH"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W44"
+            },
+            {
+                "time": "16:00",
+                "flight": [
+                    {
+                        "no": "CX 349",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 16:04",
+                "statusCode": null,
+                "origin": [
+                    "SHA"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S11"
+            },
+            {
+                "time": "16:00",
+                "flight": [
+                    {
+                        "no": "UO 851",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 15:50",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R14"
+            },
+            {
+                "time": "16:00",
+                "flight": [
+                    {
+                        "no": "MU 595",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "MF 9049",
+                        "airline": "CXA"
+                    },
+                    {
+                        "no": "FM 3023",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "At gate 16:01",
+                "statusCode": null,
+                "origin": [
+                    "HGH"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W40"
+            },
+            {
+                "time": "16:05",
+                "flight": [
+                    {
+                        "no": "MU 733",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "MF 9039",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "At gate 16:06",
+                "statusCode": null,
+                "origin": [
+                    "KMG"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N32"
+            },
+            {
+                "time": "16:05",
+                "flight": [
+                    {
+                        "no": "AC 007",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "TG 5867",
+                        "airline": "THA"
+                    }
+                ],
+                "status": "At gate 16:58",
+                "statusCode": null,
+                "origin": [
+                    "YVR"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S29"
+            },
+            {
+                "time": "16:10",
+                "flight": [
+                    {
+                        "no": "CI 915",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "At gate 16:16",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N60"
+            },
+            {
+                "time": "16:15",
+                "flight": [
+                    {
+                        "no": "NZ 081",
+                        "airline": "ANZ"
+                    },
+                    {
+                        "no": "CX 7402",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "LH 7153",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "TG 4862",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "TK 8721",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "At gate 17:16",
+                "statusCode": null,
+                "origin": [
+                    "AKL"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W46"
+            },
+            {
+                "time": "16:15",
+                "flight": [
+                    {
+                        "no": "CX 367",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 16:16",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N68"
+            },
+            {
+                "time": "16:25",
+                "flight": [
+                    {
+                        "no": "CA 109",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6109",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 16:38",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S23"
+            },
+            {
+                "time": "16:25",
+                "flight": [
+                    {
+                        "no": "UO 133",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 17:15",
+                "statusCode": null,
+                "origin": [
+                    "KHH"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W123R"
+            },
+            {
+                "time": "16:30",
+                "flight": [
+                    {
+                        "no": "CX 754",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5814",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AY 5090",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "OM 5646",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "AC 9765",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "PG 4561",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "AA 8950",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 16:36",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S1"
+            },
+            {
+                "time": "16:35",
+                "flight": [
+                    {
+                        "no": "MU 5015",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "At gate 16:15",
+                "statusCode": null,
+                "origin": [
+                    "PKX"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N62"
+            },
+            {
+                "time": "16:35",
+                "flight": [
+                    {
+                        "no": "BA 027",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "At gate 17:02",
+                "statusCode": null,
+                "origin": [
+                    "LHR"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N30"
+            },
+            {
+                "time": "16:40",
+                "flight": [
+                    {
+                        "no": "HB 521",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "At gate 16:54",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S35"
+            },
+            {
+                "time": "16:45",
+                "flight": [
+                    {
+                        "no": "ET 608",
+                        "airline": "ETH"
+                    }
+                ],
+                "status": "At gate 17:12",
+                "statusCode": null,
+                "origin": [
+                    "ADD",
+                    "BKK"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W61"
+            },
+            {
+                "time": "16:45",
+                "flight": [
+                    {
+                        "no": "CX 513",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7069",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 16:33",
+                "statusCode": null,
+                "origin": [
+                    "FUK"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R20"
+            },
+            {
+                "time": "16:45",
+                "flight": [
+                    {
+                        "no": "CX 770",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5837",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 17:48",
+                "statusCode": null,
+                "origin": [
+                    "HKT"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W40"
+            },
+            {
+                "time": "16:45",
+                "flight": [
+                    {
+                        "no": "LX 138",
+                        "airline": "SWR"
+                    },
+                    {
+                        "no": "CX 6630",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 17:04",
+                "statusCode": null,
+                "origin": [
+                    "ZRH"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N8"
+            },
+            {
+                "time": "16:50",
+                "flight": [
+                    {
+                        "no": "9C 8921",
+                        "airline": "CQH"
+                    }
+                ],
+                "status": "At gate 16:30",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W50"
+            },
+            {
+                "time": "16:55",
+                "flight": [
+                    {
+                        "no": "CX 987",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6521",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 16:52",
+                "statusCode": null,
+                "origin": [
+                    "TFU"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S3"
+            },
+            {
+                "time": "17:00",
+                "flight": [
+                    {
+                        "no": "PR 306",
+                        "airline": "PAL"
+                    }
+                ],
+                "status": "At gate 18:31",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "17:00",
+                "flight": [
+                    {
+                        "no": "CX 634",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 16:48",
+                "statusCode": null,
+                "origin": [
+                    "PEN"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W71"
+            },
+            {
+                "time": "17:05",
+                "flight": [
+                    {
+                        "no": "SQ 894",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "At gate 17:22",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N24"
+            },
+            {
+                "time": "17:10",
+                "flight": [
+                    {
+                        "no": "MU 2089",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "At gate 16:47",
+                "statusCode": null,
+                "origin": [
+                    "NGB"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "17:10",
+                "flight": [
+                    {
+                        "no": "UO 113",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 17:08",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R15"
+            },
+            {
+                "time": "17:15",
+                "flight": [
+                    {
+                        "no": "CX 690",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "OM 5620",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "AA 8897",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "AY 5840",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QR 3484",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 17:37",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W65"
+            },
+            {
+                "time": "17:15",
+                "flight": [
+                    {
+                        "no": "Z2 1264",
+                        "airline": "APG"
+                    }
+                ],
+                "status": "At gate 17:31",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S43"
+            },
+            {
+                "time": "17:20",
+                "flight": [
+                    {
+                        "no": "VJ 872",
+                        "airline": "VJC"
+                    }
+                ],
+                "status": "At gate 17:32",
+                "statusCode": null,
+                "origin": [
+                    "DAD"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S49"
+            },
+            {
+                "time": "17:30",
+                "flight": [
+                    {
+                        "no": "AF 188",
+                        "airline": "AFR"
+                    },
+                    {
+                        "no": "KL 2156",
+                        "airline": "KLM"
+                    },
+                    {
+                        "no": "QF 4224",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "At gate 17:30",
+                "statusCode": null,
+                "origin": [
+                    "CDG"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N32"
+            },
+            {
+                "time": "17:30",
+                "flight": [
+                    {
+                        "no": "OM 297",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "CX 6201",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 17:35",
+                "statusCode": null,
+                "origin": [
+                    "UBN"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N70"
+            },
+            {
+                "time": "17:35",
+                "flight": [
+                    {
+                        "no": "CX 254",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 18:09",
+                "statusCode": null,
+                "origin": [
+                    "LHR"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N5"
+            },
+            {
+                "time": "17:35",
+                "flight": [
+                    {
+                        "no": "CX 391",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6511",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 17:20",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S2"
+            },
+            {
+                "time": "17:35",
+                "flight": [
+                    {
+                        "no": "UO 687",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 17:25",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S47"
+            },
+            {
+                "time": "17:40",
+                "flight": [
+                    {
+                        "no": "HX 255",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 17:24",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R17"
+            },
+            {
+                "time": "17:40",
+                "flight": [
+                    {
+                        "no": "FM 809",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "At gate 18:37",
+                "statusCode": null,
+                "origin": [
+                    "SHA"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S33"
+            },
+            {
+                "time": "17:40",
+                "flight": [
+                    {
+                        "no": "3U 3959",
+                        "airline": "CSC"
+                    }
+                ],
+                "status": "At gate 17:20",
+                "statusCode": null,
+                "origin": [
+                    "TFU"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S31"
+            },
+            {
+                "time": "17:45",
+                "flight": [
+                    {
+                        "no": "AY 099",
+                        "airline": "FIN"
+                    }
+                ],
+                "status": "At gate 17:44",
+                "statusCode": null,
+                "origin": [
+                    "HEL"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N7"
+            },
+            {
+                "time": "17:45",
+                "flight": [
+                    {
+                        "no": "HX 659",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 17:41",
+                "statusCode": null,
+                "origin": [
+                    "OKA"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R16"
+            },
+            {
+                "time": "17:50",
+                "flight": [
+                    {
+                        "no": "CX 313",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 17:57",
+                "statusCode": null,
+                "origin": [
+                    "HAK"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R13"
+            },
+            {
+                "time": "17:50",
+                "flight": [
+                    {
+                        "no": "MF 8651",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "At gate 19:45",
+                "statusCode": null,
+                "origin": [
+                    "FOC"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S31"
+            },
+            {
+                "time": "17:55",
+                "flight": [
+                    {
+                        "no": "QF 127",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "AF 9678",
+                        "airline": "AFR"
+                    },
+                    {
+                        "no": "AY 5006",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "BA 7497",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LA 4899",
+                        "airline": "LAN"
+                    },
+                    {
+                        "no": "LY 8792",
+                        "airline": "ELY"
+                    }
+                ],
+                "status": "At gate 17:48",
+                "statusCode": null,
+                "origin": [
+                    "SYD"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N36"
+            },
+            {
+                "time": "18:00",
+                "flight": [
+                    {
+                        "no": "HX 399",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8083",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 17:42",
+                "statusCode": null,
+                "origin": [
+                    "PKX"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R18"
+            },
+            {
+                "time": "18:00",
+                "flight": [
+                    {
+                        "no": "HB 541",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "At gate 17:58",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S106"
+            },
+            {
+                "time": "18:05",
+                "flight": [
+                    {
+                        "no": "CX 411",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8894",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "QF 8224",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "At gate 17:49",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W63"
+            },
+            {
+                "time": "18:05",
+                "flight": [
+                    {
+                        "no": "UO 173",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 17:49",
+                "statusCode": null,
+                "origin": [
+                    "RMQ"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D309L"
+            },
+            {
+                "time": "18:05",
+                "flight": [
+                    {
+                        "no": "EK 384",
+                        "airline": "UAE"
+                    }
+                ],
+                "status": "At gate 18:10",
+                "statusCode": null,
+                "origin": [
+                    "DXB",
+                    "BKK"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N60"
+            },
+            {
+                "time": "18:10",
+                "flight": [
+                    {
+                        "no": "AK 136",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "At gate 18:10",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N9"
+            },
+            {
+                "time": "18:10",
+                "flight": [
+                    {
+                        "no": "CX 443",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 17:45",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R14"
+            },
+            {
+                "time": "18:10",
+                "flight": [
+                    {
+                        "no": "ZH 8033",
+                        "airline": "CSZ"
+                    },
+                    {
+                        "no": "CA 3819",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 17:55",
+                "statusCode": null,
+                "origin": [
+                    "TFU"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "18:10",
+                "flight": [
+                    {
+                        "no": "5J 112",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "At gate 18:13",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W50"
+            },
+            {
+                "time": "18:20",
+                "flight": [
+                    {
+                        "no": "CX 961",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 19:13",
+                "statusCode": null,
+                "origin": [
+                    "HGH"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S27"
+            },
+            {
+                "time": "18:25",
+                "flight": [
+                    {
+                        "no": "BR 871",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1831",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 18:16",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N26"
+            },
+            {
+                "time": "18:30",
+                "flight": [
+                    {
+                        "no": "HX 665",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 18:21",
+                "statusCode": null,
+                "origin": [
+                    "NGO"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R21"
+            },
+            {
+                "time": "18:40",
+                "flight": [
+                    {
+                        "no": "CX 371",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 18:54",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R20"
+            },
+            {
+                "time": "18:50",
+                "flight": [
+                    {
+                        "no": "VJ 876",
+                        "airline": "VJC"
+                    }
+                ],
+                "status": "At gate 18:42",
+                "statusCode": null,
+                "origin": [
+                    "SGN"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S49"
+            },
+            {
+                "time": "18:55",
+                "flight": [
+                    {
+                        "no": "CI 919",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "At gate 18:48",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "18:55",
+                "flight": [
+                    {
+                        "no": "CX 527",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7025",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5803",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 18:16",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W44"
+            },
+            {
+                "time": "18:55",
+                "flight": [
+                    {
+                        "no": "TG 638",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "GF 6338",
+                        "airline": "GFA"
+                    },
+                    {
+                        "no": "WE 5638",
+                        "airline": "THD"
+                    }
+                ],
+                "status": "At gate 19:10",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S47"
+            },
+            {
+                "time": "19:00",
+                "flight": [
+                    {
+                        "no": "UO 621",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 18:39",
+                "statusCode": null,
+                "origin": [
+                    "FUK"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S43"
+            },
+            {
+                "time": "19:00",
+                "flight": [
+                    {
+                        "no": "UO 631",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 18:43",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D308L"
+            },
+            {
+                "time": "19:05",
+                "flight": [
+                    {
+                        "no": "MU 505",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3013",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "At gate 20:30",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W50"
+            },
+            {
+                "time": "19:05",
+                "flight": [
+                    {
+                        "no": "FD 524",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "At gate 19:38",
+                "statusCode": null,
+                "origin": [
+                    "HKT"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W46"
+            },
+            {
+                "time": "19:15",
+                "flight": [
+                    {
+                        "no": "CX 589",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7057",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 19:04",
+                "statusCode": null,
+                "origin": [
+                    "FUK"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S23"
+            },
+            {
+                "time": "19:15",
+                "flight": [
+                    {
+                        "no": "CX 823",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 20:24",
+                "statusCode": null,
+                "origin": [
+                    "YYZ"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S41"
+            },
+            {
+                "time": "19:20",
+                "flight": [
+                    {
+                        "no": "HX 776",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 19:40",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R18"
+            },
+            {
+                "time": "19:20",
+                "flight": [
+                    {
+                        "no": "CX 819",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 19:39",
+                "statusCode": null,
+                "origin": [
+                    "YVR"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N24"
+            },
+            {
+                "time": "19:25",
+                "flight": [
+                    {
+                        "no": "AK 239",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "At gate 19:40",
+                "statusCode": null,
+                "origin": [
+                    "BKI"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W48"
+            },
+            {
+                "time": "19:30",
+                "flight": [
+                    {
+                        "no": "CX 539",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7035",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5855",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "QF 8258",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "At gate 19:01",
+                "statusCode": null,
+                "origin": [
+                    "NGO"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N70"
+            },
+            {
+                "time": "19:35",
+                "flight": [
+                    {
+                        "no": "HX 641",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 19:24",
+                "statusCode": null,
+                "origin": [
+                    "FUK"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R17"
+            },
+            {
+                "time": "19:35",
+                "flight": [
+                    {
+                        "no": "UO 115",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 19:26",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "D308R"
+            },
+            {
+                "time": "19:35",
+                "flight": [
+                    {
+                        "no": "PX 008",
+                        "airline": "ANG"
+                    },
+                    {
+                        "no": "CX 6898",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 19:46",
+                "statusCode": null,
+                "origin": [
+                    "POM"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N28"
+            },
+            {
+                "time": "19:40",
+                "flight": [
+                    {
+                        "no": "UO 849",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 19:28",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W122R"
+            },
+            {
+                "time": "19:45",
+                "flight": [
+                    {
+                        "no": "HX 247",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8360",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Cancelled",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "",
+                "hall": "",
+                "terminal": "",
+                "stand": ""
+            },
+            {
+                "time": "19:45",
+                "flight": [
+                    {
+                        "no": "TG 606",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "WE 5606",
+                        "airline": "THD"
+                    }
+                ],
+                "status": "At gate 19:51",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "19:50",
+                "flight": [
+                    {
+                        "no": "HB 531",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "At gate 19:41",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S101"
+            },
+            {
+                "time": "19:55",
+                "flight": [
+                    {
+                        "no": "BR 857",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1833",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 20:00",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N62"
+            },
+            {
+                "time": "20:00",
+                "flight": [
+                    {
+                        "no": "HX 609",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7161",
+                        "airline": "AIC"
+                    }
+                ],
+                "status": "At gate 19:29",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W125"
+            },
+            {
+                "time": "20:00",
+                "flight": [
+                    {
+                        "no": "CX 549",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7039",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5843",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 19:30",
+                "statusCode": null,
+                "origin": [
+                    "HND"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W67"
+            },
+            {
+                "time": "20:00",
+                "flight": [
+                    {
+                        "no": "UO 701",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 20:08",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D307L"
+            },
+            {
+                "time": "20:05",
+                "flight": [
+                    {
+                        "no": "CI 923",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "At gate 20:07",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N34"
+            },
+            {
+                "time": "20:05",
+                "flight": [
+                    {
+                        "no": "HX 693",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 20:02",
+                "statusCode": null,
+                "origin": [
+                    "CTS"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W124"
+            },
+            {
+                "time": "20:10",
+                "flight": [
+                    {
+                        "no": "CX 918",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 20:03",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W71"
+            },
+            {
+                "time": "20:10",
+                "flight": [
+                    {
+                        "no": "UO 899",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 19:52",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "D307R"
+            },
+            {
+                "time": "20:20",
+                "flight": [
+                    {
+                        "no": "CX 2734",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 21:51",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W44"
+            },
+            {
+                "time": "20:25",
+                "flight": [
+                    {
+                        "no": "CX 776",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3494",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "BA 4574",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "At gate 20:53",
+                "statusCode": null,
+                "origin": [
+                    "CGK"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W48"
+            },
+            {
+                "time": "20:30",
+                "flight": [
+                    {
+                        "no": "CX 369",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 20:22",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S11"
+            },
+            {
+                "time": "20:35",
+                "flight": [
+                    {
+                        "no": "CX 331",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6501",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 20:30",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N68"
+            },
+            {
+                "time": "20:40",
+                "flight": [
+                    {
+                        "no": "AK 130",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "At gate 21:19",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N7"
+            },
+            {
+                "time": "20:45",
+                "flight": [
+                    {
+                        "no": "CX 473",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 20:32",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N66"
+            },
+            {
+                "time": "20:50",
+                "flight": [
+                    {
+                        "no": "HX 217",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8210",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 21:17",
+                "statusCode": null,
+                "origin": [
+                    "NKG"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R20"
+            },
+            {
+                "time": "20:50",
+                "flight": [
+                    {
+                        "no": "CX 459",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 20:53",
+                "statusCode": null,
+                "origin": [
+                    "KHH"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W46"
+            },
+            {
+                "time": "20:50",
+                "flight": [
+                    {
+                        "no": "5J 114",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "At gate 20:58",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "20:55",
+                "flight": [
+                    {
+                        "no": "HX 619",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7173",
+                        "airline": "AIC"
+                    },
+                    {
+                        "no": "TK 8875",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "At gate 20:30",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S35"
+            },
+            {
+                "time": "20:55",
+                "flight": [
+                    {
+                        "no": "CX 507",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7059",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5815",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 20:26",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S1"
+            },
+            {
+                "time": "21:00",
+                "flight": [
+                    {
+                        "no": "CX 581",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7061",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 3495",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 20:43",
+                "statusCode": null,
+                "origin": [
+                    "CTS"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W42"
+            },
+            {
+                "time": "21:00",
+                "flight": [
+                    {
+                        "no": "UO 567",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5567",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 21:11",
+                "statusCode": null,
+                "origin": [
+                    "CXR"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W126"
+            },
+            {
+                "time": "21:00",
+                "flight": [
+                    {
+                        "no": "UO 691",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 20:54",
+                "statusCode": null,
+                "origin": [
+                    "NGO"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R15"
+            },
+            {
+                "time": "21:00",
+                "flight": [
+                    {
+                        "no": "UO 871",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 21:08",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D306L"
+            },
+            {
+                "time": "21:05",
+                "flight": [
+                    {
+                        "no": "CA 117",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6117",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 21:24",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S109"
+            },
+            {
+                "time": "21:05",
+                "flight": [
+                    {
+                        "no": "CX 784",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5812",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7930",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8914",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 20:59",
+                "statusCode": null,
+                "origin": [
+                    "DPS"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N70"
+            },
+            {
+                "time": "21:10",
+                "flight": [
+                    {
+                        "no": "UO 559",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5559",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 21:25",
+                "statusCode": null,
+                "origin": [
+                    "DAD"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R17"
+            },
+            {
+                "time": "21:10",
+                "flight": [
+                    {
+                        "no": "FD 502",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "At gate 21:56",
+                "statusCode": null,
+                "origin": [
+                    "DMK"
+                ],
+                "baggage": "3",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N10"
+            },
+            {
+                "time": "21:15",
+                "flight": [
+                    {
+                        "no": "CX 565",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7055",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 21:05",
+                "statusCode": null,
+                "origin": [
+                    "KIX",
+                    "TPE"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N9"
+            },
+            {
+                "time": "21:20",
+                "flight": [
+                    {
+                        "no": "CX 521",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5859",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7047",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8883",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 22:29",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N62"
+            },
+            {
+                "time": "21:25",
+                "flight": [
+                    {
+                        "no": "CX 198",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "NZ 4995",
+                        "airline": "ANZ"
+                    },
+                    {
+                        "no": "QR 5805",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "LH 7020",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "BA 4550",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LX 9520",
+                        "airline": "SWR"
+                    }
+                ],
+                "status": "At gate 21:10",
+                "statusCode": null,
+                "origin": [
+                    "AKL"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S33"
+            },
+            {
+                "time": "21:30",
+                "flight": [
+                    {
+                        "no": "CX 100",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5800",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "LH 7000",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "BA 4130",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LA 5647",
+                        "airline": "LAN"
+                    }
+                ],
+                "status": "At gate 21:43",
+                "statusCode": null,
+                "origin": [
+                    "SYD"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S29"
+            },
+            {
+                "time": "21:30",
+                "flight": [
+                    {
+                        "no": "CX 451",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7045",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 21:28",
+                "statusCode": null,
+                "origin": [
+                    "NRT",
+                    "TPE"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S25"
+            },
+            {
+                "time": "21:30",
+                "flight": [
+                    {
+                        "no": "CX 708",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3460",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "PG 4557",
+                        "airline": "BKP"
+                    }
+                ],
+                "status": "At gate 21:40",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S47"
+            },
+            {
+                "time": "21:35",
+                "flight": [
+                    {
+                        "no": "PR 310",
+                        "airline": "PAL"
+                    }
+                ],
+                "status": "At gate 21:02",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R19"
+            },
+            {
+                "time": "21:35",
+                "flight": [
+                    {
+                        "no": "QR 816",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "LA 7418",
+                        "airline": "LAN"
+                    },
+                    {
+                        "no": "CX 9200",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "IB 7923",
+                        "airline": "IBE"
+                    },
+                    {
+                        "no": "JU 8316",
+                        "airline": "ASL"
+                    }
+                ],
+                "status": "At gate 21:42",
+                "statusCode": null,
+                "origin": [
+                    "DOH"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N36"
+            },
+            {
+                "time": "21:45",
+                "flight": [
+                    {
+                        "no": "CX 104",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5834",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "LH 7010",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "BA 4566",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LA 5645",
+                        "airline": "LAN"
+                    }
+                ],
+                "status": "At gate 21:31",
+                "statusCode": null,
+                "origin": [
+                    "MEL"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S43"
+            },
+            {
+                "time": "21:45",
+                "flight": [
+                    {
+                        "no": "CX 595",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3481",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7067",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "At gate 21:17",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S2"
+            },
+            {
+                "time": "21:50",
+                "flight": [
+                    {
+                        "no": "HX 239",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8362",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 21:40",
+                "statusCode": null,
+                "origin": [
+                    "SHA"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S108"
+            },
+            {
+                "time": "21:55",
+                "flight": [
+                    {
+                        "no": "CX 381",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 21:36",
+                "statusCode": null,
+                "origin": [
+                    "PVG"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W69"
+            },
+            {
+                "time": "21:55",
+                "flight": [
+                    {
+                        "no": "CX 724",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9202",
+                        "airline": "MAS"
+                    }
+                ],
+                "status": "At gate 22:26",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W50"
+            },
+            {
+                "time": "21:55",
+                "flight": [
+                    {
+                        "no": "CX 764",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5831",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7922",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "VN 3560",
+                        "airline": "HVN"
+                    },
+                    {
+                        "no": "OM 5629",
+                        "airline": "MGL"
+                    }
+                ],
+                "status": "At gate 21:53",
+                "statusCode": null,
+                "origin": [
+                    "SGN"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S1"
+            },
+            {
+                "time": "22:00",
+                "flight": [
+                    {
+                        "no": "CX 742",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5802",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "VN 3566",
+                        "airline": "HVN"
+                    }
+                ],
+                "status": "At gate 22:27",
+                "statusCode": null,
+                "origin": [
+                    "HAN"
+                ],
+                "baggage": "2",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R21"
+            },
+            {
+                "time": "22:00",
+                "flight": [
+                    {
+                        "no": "CX 979",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 22:31",
+                "statusCode": null,
+                "origin": [
+                    "XMN"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "S11"
+            },
+            {
+                "time": "22:00",
+                "flight": [
+                    {
+                        "no": "EK 380",
+                        "airline": "UAE"
+                    },
+                    {
+                        "no": "TP 6360",
+                        "airline": "TAP"
+                    }
+                ],
+                "status": "At gate 22:08",
+                "statusCode": null,
+                "origin": [
+                    "DXB"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N60"
+            },
+            {
+                "time": "22:00",
+                "flight": [
+                    {
+                        "no": "JL 735",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8417",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "CX 6323",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9119",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "WS 5910",
+                        "airline": "WJA"
+                    },
+                    {
+                        "no": "HA 5381",
+                        "airline": "HAL"
+                    }
+                ],
+                "status": "At gate 22:02",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S31"
+            },
+            {
+                "time": "22:10",
+                "flight": [
+                    {
+                        "no": "CX 716",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5816",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AA 8907",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 22:08",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W48"
+            },
+            {
+                "time": "22:15",
+                "flight": [
+                    {
+                        "no": "NH 811",
+                        "airline": "ANA"
+                    },
+                    {
+                        "no": "UA 7989",
+                        "airline": "UAL"
+                    },
+                    {
+                        "no": "AC 6286",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "NZ 4147",
+                        "airline": "ANZ"
+                    }
+                ],
+                "status": "At gate 22:15",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N34"
+            },
+            {
+                "time": "22:25",
+                "flight": [
+                    {
+                        "no": "CX 393",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6513",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "At gate 22:01",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "22:25",
+                "flight": [
+                    {
+                        "no": "CX 505",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8881",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "QR 3457",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 22:15",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "15",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S49"
+            },
+            {
+                "time": "22:30",
+                "flight": [
+                    {
+                        "no": "OZ 745",
+                        "airline": "AAR"
+                    },
+                    {
+                        "no": "HX 1565",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "At gate 23:02",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W46"
+            },
+            {
+                "time": "22:30",
+                "flight": [
+                    {
+                        "no": "CX 991",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 00:07 (07/09/2023)",
+                "statusCode": null,
+                "origin": [
+                    "FOC"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S45"
+            },
+            {
+                "time": "22:30",
+                "flight": [
+                    {
+                        "no": "KE 177",
+                        "airline": "KAL"
+                    },
+                    {
+                        "no": "DL 7897",
+                        "airline": "DAL"
+                    },
+                    {
+                        "no": "EY 8503",
+                        "airline": "ETD"
+                    }
+                ],
+                "status": "At gate 22:50",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "10",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N7"
+            },
+            {
+                "time": "22:35",
+                "flight": [
+                    {
+                        "no": "CX 902",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 22:33",
+                "statusCode": null,
+                "origin": [
+                    "MNL"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N70"
+            },
+            {
+                "time": "22:50",
+                "flight": [
+                    {
+                        "no": "CI 921",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "At gate 22:46",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "6",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N32"
+            },
+            {
+                "time": "22:50",
+                "flight": [
+                    {
+                        "no": "HX 108",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8051",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 22:39",
+                "statusCode": null,
+                "origin": [
+                    "HAK"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W122L"
+            },
+            {
+                "time": "22:55",
+                "flight": [
+                    {
+                        "no": "CX 704",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3450",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "PG 4567",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "QR 3469",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 22:52",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N6"
+            },
+            {
+                "time": "23:00",
+                "flight": [
+                    {
+                        "no": "CX 419",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8912",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "At gate 23:25",
+                "statusCode": null,
+                "origin": [
+                    "ICN"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S29"
+            },
+            {
+                "time": "23:00",
+                "flight": [
+                    {
+                        "no": "UO 755",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5744",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 23:08",
+                "statusCode": null,
+                "origin": [
+                    "CNX"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D306R"
+            },
+            {
+                "time": "23:05",
+                "flight": [
+                    {
+                        "no": "CX 479",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 22:58",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "S23"
+            },
+            {
+                "time": "23:10",
+                "flight": [
+                    {
+                        "no": "UO 117",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 23:10",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "8",
+                "hall": "A",
+                "terminal": "",
+                "stand": "N10"
+            },
+            {
+                "time": "23:15",
+                "flight": [
+                    {
+                        "no": "HX 283",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "BR 2891",
+                        "airline": "EVA"
+                    }
+                ],
+                "status": "At gate 23:04",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "5",
+                "hall": "A",
+                "terminal": "",
+                "stand": "R18"
+            },
+            {
+                "time": "23:15",
+                "flight": [
+                    {
+                        "no": "UO 647",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 23:16",
+                "statusCode": null,
+                "origin": [
+                    "NRT"
+                ],
+                "baggage": "7",
+                "hall": "A",
+                "terminal": "",
+                "stand": "D305L"
+            },
+            {
+                "time": "23:20",
+                "flight": [
+                    {
+                        "no": "UO 703",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 23:28",
+                "statusCode": null,
+                "origin": [
+                    "BKK"
+                ],
+                "baggage": "9",
+                "hall": "A",
+                "terminal": "",
+                "stand": "W69"
+            },
+            {
+                "time": "23:30",
+                "flight": [
+                    {
+                        "no": "HX 613",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7171",
+                        "airline": "AIC"
+                    },
+                    {
+                        "no": "TK 9201",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "At gate 23:36",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R16"
+            },
+            {
+                "time": "23:30",
+                "flight": [
+                    {
+                        "no": "CX 989",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "At gate 00:03 (07/09/2023)",
+                "statusCode": null,
+                "origin": [
+                    "CAN"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R14"
+            },
+            {
+                "time": "23:50",
+                "flight": [
+                    {
+                        "no": "SQ 898",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "At gate 00:08 (07/09/2023)",
+                "statusCode": null,
+                "origin": [
+                    "SIN"
+                ],
+                "baggage": "13",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N26"
+            },
+            {
+                "time": "23:50",
+                "flight": [
+                    {
+                        "no": "HX 313",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8191",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "At gate 00:00 (07/09/2023)",
+                "statusCode": null,
+                "origin": [
+                    "PEK"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N143"
+            },
+            {
+                "time": "23:50",
+                "flight": [
+                    {
+                        "no": "UO 689",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "At gate 23:37",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "16",
+                "hall": "B",
+                "terminal": "",
+                "stand": "W121L"
+            },
+            {
+                "time": "23:50",
+                "flight": [
+                    {
+                        "no": "HB 505",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "At gate 23:50",
+                "statusCode": null,
+                "origin": [
+                    "TPE"
+                ],
+                "baggage": "17",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R13"
+            },
+            {
+                "time": "23:50",
+                "flight": [
+                    {
+                        "no": "MH 078",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "CX 6010",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "FY 7052",
+                        "airline": "FFM"
+                    },
+                    {
+                        "no": "UL 2778",
+                        "airline": "ALK"
+                    },
+                    {
+                        "no": "QR 4986",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "At gate 00:10 (07/09/2023)",
+                "statusCode": null,
+                "origin": [
+                    "KUL"
+                ],
+                "baggage": "12",
+                "hall": "B",
+                "terminal": "",
+                "stand": "R19"
+            },
+            {
+                "time": "23:55",
+                "flight": [
+                    {
+                        "no": "MM 067",
+                        "airline": "APJ"
+                    }
+                ],
+                "status": "At gate 23:56",
+                "statusCode": null,
+                "origin": [
+                    "KIX"
+                ],
+                "baggage": "14",
+                "hall": "B",
+                "terminal": "",
+                "stand": "N30"
+            }
+        ]
+    }
+]

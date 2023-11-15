@@ -1,0 +1,6145 @@
+[
+    {
+        "date": "2023-09-10",
+        "arrival": false,
+        "cargo": false,
+        "list": [
+            {
+                "time": "00:05",
+                "flight": [
+                    {
+                        "no": "CX 315",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "IB 1961",
+                        "airline": "IBE"
+                    }
+                ],
+                "status": "Dep 00:56",
+                "statusCode": null,
+                "destination": [
+                    "MAD"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "2"
+            },
+            {
+                "time": "00:05",
+                "flight": [
+                    {
+                        "no": "CX 880",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9190",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "AA 8933",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 00:15",
+                "statusCode": null,
+                "destination": [
+                    "LAX"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "41"
+            },
+            {
+                "time": "00:20",
+                "flight": [
+                    {
+                        "no": "CX 105",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AY 5095",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QR 5830",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "LH 7013",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "BA 4567",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LX 9513",
+                        "airline": "SWR"
+                    }
+                ],
+                "status": "Dep 00:33",
+                "statusCode": null,
+                "destination": [
+                    "MEL"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "69"
+            },
+            {
+                "time": "00:25",
+                "flight": [
+                    {
+                        "no": "ET 645",
+                        "airline": "ETH"
+                    }
+                ],
+                "status": "Dep 00:25",
+                "statusCode": null,
+                "destination": [
+                    "ADD"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "25"
+            },
+            {
+                "time": "00:25",
+                "flight": [
+                    {
+                        "no": "QR 815",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "LA 7419",
+                        "airline": "LAN"
+                    },
+                    {
+                        "no": "CX 9201",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "IB 7922",
+                        "airline": "IBE"
+                    },
+                    {
+                        "no": "JU 8317",
+                        "airline": "ASL"
+                    }
+                ],
+                "status": "Dep 00:24",
+                "statusCode": null,
+                "destination": [
+                    "DOH"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "31"
+            },
+            {
+                "time": "00:30",
+                "flight": [
+                    {
+                        "no": "OZ 746",
+                        "airline": "AAR"
+                    },
+                    {
+                        "no": "HX 1566",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 00:32",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "11"
+            },
+            {
+                "time": "00:35",
+                "flight": [
+                    {
+                        "no": "EK 381",
+                        "airline": "UAE"
+                    },
+                    {
+                        "no": "TP 6349",
+                        "airline": "TAP"
+                    }
+                ],
+                "status": "Dep 00:36",
+                "statusCode": null,
+                "destination": [
+                    "DXB"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "60"
+            },
+            {
+                "time": "00:40",
+                "flight": [
+                    {
+                        "no": "CX 749",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7901",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 00:46",
+                "statusCode": null,
+                "destination": [
+                    "JNB"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "6"
+            },
+            {
+                "time": "00:45",
+                "flight": [
+                    {
+                        "no": "KE 178",
+                        "airline": "KAL"
+                    },
+                    {
+                        "no": "DL 7916",
+                        "airline": "DAL"
+                    },
+                    {
+                        "no": "EY 8495",
+                        "airline": "ETD"
+                    }
+                ],
+                "status": "Dep 00:41",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "44"
+            },
+            {
+                "time": "00:50",
+                "flight": [
+                    {
+                        "no": "MM 068",
+                        "airline": "APJ"
+                    }
+                ],
+                "status": "Dep 01:00",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "24"
+            },
+            {
+                "time": "01:20",
+                "flight": [
+                    {
+                        "no": "CX 524",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8884",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "JL 7040",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5844",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "Dep 01:17",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "63"
+            },
+            {
+                "time": "01:45",
+                "flight": [
+                    {
+                        "no": "CX 675",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 02:41",
+                "statusCode": null,
+                "destination": [
+                    "TLV"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "8"
+            },
+            {
+                "time": "01:50",
+                "flight": [
+                    {
+                        "no": "CX 566",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7050",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5838",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "Dep 01:48",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "26"
+            },
+            {
+                "time": "01:55",
+                "flight": [
+                    {
+                        "no": "HX 707",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "GA 9771",
+                        "airline": "GIA"
+                    }
+                ],
+                "status": "Dep 01:59",
+                "statusCode": null,
+                "destination": [
+                    "DPS"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "67"
+            },
+            {
+                "time": "02:00",
+                "flight": [
+                    {
+                        "no": "CX 844",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9210",
+                        "airline": "MAS"
+                    }
+                ],
+                "status": "Dep 02:04",
+                "statusCode": null,
+                "destination": [
+                    "JFK"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "3"
+            },
+            {
+                "time": "02:20",
+                "flight": [
+                    {
+                        "no": "UO 676",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5676",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 02:15",
+                "statusCode": null,
+                "destination": [
+                    "CJU"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "20"
+            },
+            {
+                "time": "02:55",
+                "flight": [
+                    {
+                        "no": "HX 606",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 02:46",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "16"
+            },
+            {
+                "time": "03:20",
+                "flight": [
+                    {
+                        "no": "HX 616",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 03:16",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "10"
+            },
+            {
+                "time": "07:00",
+                "flight": [
+                    {
+                        "no": "UO 820",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5820",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 07:04",
+                "statusCode": null,
+                "destination": [
+                    "OKA"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "520"
+            },
+            {
+                "time": "07:05",
+                "flight": [
+                    {
+                        "no": "UO 850",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 06:56",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "10"
+            },
+            {
+                "time": "07:15",
+                "flight": [
+                    {
+                        "no": "HX 676",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 07:12",
+                "statusCode": null,
+                "destination": [
+                    "OKA"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "69"
+            },
+            {
+                "time": "07:15",
+                "flight": [
+                    {
+                        "no": "UO 618",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 07:12",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "20"
+            },
+            {
+                "time": "07:20",
+                "flight": [
+                    {
+                        "no": "CX 366",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 07:26",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "63"
+            },
+            {
+                "time": "07:20",
+                "flight": [
+                    {
+                        "no": "CX 907",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 07:26",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "21"
+            },
+            {
+                "time": "07:35",
+                "flight": [
+                    {
+                        "no": "UO 600",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 07:31",
+                "statusCode": null,
+                "destination": [
+                    "FUK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "30"
+            },
+            {
+                "time": "07:45",
+                "flight": [
+                    {
+                        "no": "UO 192",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5192",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 07:50",
+                "statusCode": null,
+                "destination": [
+                    "RMQ"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "511"
+            },
+            {
+                "time": "07:45",
+                "flight": [
+                    {
+                        "no": "UO 550",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 07:45",
+                "statusCode": null,
+                "destination": [
+                    "HAN"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "523"
+            },
+            {
+                "time": "07:50",
+                "flight": [
+                    {
+                        "no": "CX 958",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6524",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 07:51",
+                "statusCode": null,
+                "destination": [
+                    "HGH"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "11"
+            },
+            {
+                "time": "07:55",
+                "flight": [
+                    {
+                        "no": "CX 434",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8959",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 08:27",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "23"
+            },
+            {
+                "time": "07:55",
+                "flight": [
+                    {
+                        "no": "CX 982",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 08:10",
+                "statusCode": null,
+                "destination": [
+                    "CAN"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "1"
+            },
+            {
+                "time": "08:00",
+                "flight": [
+                    {
+                        "no": "CX 257",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 08:28",
+                "statusCode": null,
+                "destination": [
+                    "LHR"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "32"
+            },
+            {
+                "time": "08:00",
+                "flight": [
+                    {
+                        "no": "CX 488",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 08:33",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "47"
+            },
+            {
+                "time": "08:00",
+                "flight": [
+                    {
+                        "no": "CX 691",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8898",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 08:14",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "67"
+            },
+            {
+                "time": "08:00",
+                "flight": [
+                    {
+                        "no": "CX 705",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3469",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "PG 4550",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "AA 8906",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 08:03",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "2"
+            },
+            {
+                "time": "08:00",
+                "flight": [
+                    {
+                        "no": "UO 760",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 08:07",
+                "statusCode": null,
+                "destination": [
+                    "HKT"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "17"
+            },
+            {
+                "time": "08:10",
+                "flight": [
+                    {
+                        "no": "CI 922",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "Dep 08:10",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "36"
+            },
+            {
+                "time": "08:10",
+                "flight": [
+                    {
+                        "no": "CX 526",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5840",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7026",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8966",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 08:25",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "8"
+            },
+            {
+                "time": "08:10",
+                "flight": [
+                    {
+                        "no": "CX 564",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7054",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 08:11",
+                "statusCode": null,
+                "destination": [
+                    "TPE",
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "50"
+            },
+            {
+                "time": "08:10",
+                "flight": [
+                    {
+                        "no": "CX 596",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 08:14",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "31"
+            },
+            {
+                "time": "08:10",
+                "flight": [
+                    {
+                        "no": "UO 704",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 08:18",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "521"
+            },
+            {
+                "time": "08:15",
+                "flight": [
+                    {
+                        "no": "HX 236",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8492",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 08:23",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "68"
+            },
+            {
+                "time": "08:15",
+                "flight": [
+                    {
+                        "no": "CX 512",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7068",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 08:15",
+                "statusCode": null,
+                "destination": [
+                    "FUK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "14"
+            },
+            {
+                "time": "08:15",
+                "flight": [
+                    {
+                        "no": "CX 723",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9189",
+                        "airline": "MAS"
+                    }
+                ],
+                "status": "Dep 08:36",
+                "statusCode": null,
+                "destination": [
+                    "KUL"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "62"
+            },
+            {
+                "time": "08:15",
+                "flight": [
+                    {
+                        "no": "HB 520",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "Dep 08:19",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "19"
+            },
+            {
+                "time": "08:20",
+                "flight": [
+                    {
+                        "no": "CX 633",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 08:35",
+                "statusCode": null,
+                "destination": [
+                    "PEN"
+                ],
+                "terminal": "T1",
+                "aisle": "BC",
+                "gate": "44"
+            },
+            {
+                "time": "08:30",
+                "flight": [
+                    {
+                        "no": "CA 118",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6118",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 08:24",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "522"
+            },
+            {
+                "time": "08:30",
+                "flight": [
+                    {
+                        "no": "HX 690",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 08:32",
+                "statusCode": null,
+                "destination": [
+                    "CTS"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "6"
+            },
+            {
+                "time": "08:30",
+                "flight": [
+                    {
+                        "no": "CX 771",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5817",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "Dep 08:37",
+                "statusCode": null,
+                "destination": [
+                    "HKT"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "65"
+            },
+            {
+                "time": "08:30",
+                "flight": [
+                    {
+                        "no": "UO 674",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5674",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 08:38",
+                "statusCode": null,
+                "destination": [
+                    "PUS"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "524"
+            },
+            {
+                "time": "08:35",
+                "flight": [
+                    {
+                        "no": "CX 741",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5813",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "Dep 08:46",
+                "statusCode": null,
+                "destination": [
+                    "HAN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "13"
+            },
+            {
+                "time": "08:35",
+                "flight": [
+                    {
+                        "no": "CX 767",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "VN 3563",
+                        "airline": "HVN"
+                    },
+                    {
+                        "no": "QR 5821",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AA 8910",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 08:48",
+                "statusCode": null,
+                "destination": [
+                    "SGN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "46"
+            },
+            {
+                "time": "08:45",
+                "flight": [
+                    {
+                        "no": "CX 548",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5820",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7030",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 09:11",
+                "statusCode": null,
+                "destination": [
+                    "HND"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "5"
+            },
+            {
+                "time": "08:45",
+                "flight": [
+                    {
+                        "no": "UO 686",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 08:51",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "520"
+            },
+            {
+                "time": "08:50",
+                "flight": [
+                    {
+                        "no": "CX 432",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 09:01",
+                "statusCode": null,
+                "destination": [
+                    "KHH"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "71"
+            },
+            {
+                "time": "08:55",
+                "flight": [
+                    {
+                        "no": "HB 502",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "Dep 09:08",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "20"
+            },
+            {
+                "time": "09:00",
+                "flight": [
+                    {
+                        "no": "GA 873",
+                        "airline": "GIA"
+                    },
+                    {
+                        "no": "HX 1953",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 09:05",
+                "statusCode": null,
+                "destination": [
+                    "CGK"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "70"
+            },
+            {
+                "time": "09:00",
+                "flight": [
+                    {
+                        "no": "CX 390",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6510",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 09:15",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "45"
+            },
+            {
+                "time": "09:00",
+                "flight": [
+                    {
+                        "no": "CX 901",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 09:45",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "34"
+            },
+            {
+                "time": "09:05",
+                "flight": [
+                    {
+                        "no": "SQ 899",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "Dep 09:25",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "29"
+            },
+            {
+                "time": "09:05",
+                "flight": [
+                    {
+                        "no": "CX 504",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7042",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5846",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AA 8880",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 09:33",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "64"
+            },
+            {
+                "time": "09:05",
+                "flight": [
+                    {
+                        "no": "CX 830",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 09:33",
+                "statusCode": null,
+                "destination": [
+                    "JFK"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "49"
+            },
+            {
+                "time": "09:10",
+                "flight": [
+                    {
+                        "no": "CX 139",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AY 5105",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QR 3492",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "BA 4132",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "Dep 09:51",
+                "statusCode": null,
+                "destination": [
+                    "SYD"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "40"
+            },
+            {
+                "time": "09:10",
+                "flight": [
+                    {
+                        "no": "UO 630",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 09:10",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "18"
+            },
+            {
+                "time": "09:15",
+                "flight": [
+                    {
+                        "no": "HX 608",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7160",
+                        "airline": "AIC"
+                    }
+                ],
+                "status": "Dep 09:21",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "513"
+            },
+            {
+                "time": "09:15",
+                "flight": [
+                    {
+                        "no": "CX 580",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5804",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7062",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QF 8215",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "Dep 09:41",
+                "statusCode": null,
+                "destination": [
+                    "CTS"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "66"
+            },
+            {
+                "time": "09:15",
+                "flight": [
+                    {
+                        "no": "CX 777",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3483",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AA 8913",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 09:25",
+                "statusCode": null,
+                "destination": [
+                    "CGK"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "35"
+            },
+            {
+                "time": "09:15",
+                "flight": [
+                    {
+                        "no": "UO 848",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 09:17",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "521"
+            },
+            {
+                "time": "09:15",
+                "flight": [
+                    {
+                        "no": "HB 540",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "Dep 09:19",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "522"
+            },
+            {
+                "time": "09:20",
+                "flight": [
+                    {
+                        "no": "CX 368",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 09:58",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "30"
+            },
+            {
+                "time": "09:20",
+                "flight": [
+                    {
+                        "no": "CX 410",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QF 8223",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "AA 8887",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 09:40",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "69"
+            },
+            {
+                "time": "09:20",
+                "flight": [
+                    {
+                        "no": "HB 530",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "Dep 14:36",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "29"
+            },
+            {
+                "time": "09:25",
+                "flight": [
+                    {
+                        "no": "5J 273",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "Dep 09:59",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "10"
+            },
+            {
+                "time": "09:30",
+                "flight": [
+                    {
+                        "no": "CX 348",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 09:44",
+                "statusCode": null,
+                "destination": [
+                    "SHA"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "61"
+            },
+            {
+                "time": "09:30",
+                "flight": [
+                    {
+                        "no": "HX 664",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 09:35",
+                "statusCode": null,
+                "destination": [
+                    "NGO"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "511"
+            },
+            {
+                "time": "09:30",
+                "flight": [
+                    {
+                        "no": "CX 755",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3456",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "PG 4554",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "AA 8940",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 09:45",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "33"
+            },
+            {
+                "time": "09:30",
+                "flight": [
+                    {
+                        "no": "NH 812",
+                        "airline": "ANA"
+                    },
+                    {
+                        "no": "UA 7988",
+                        "airline": "UAL"
+                    },
+                    {
+                        "no": "AC 6287",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "NZ 4148",
+                        "airline": "ANZ"
+                    }
+                ],
+                "status": "Dep 09:31",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "27"
+            },
+            {
+                "time": "09:30",
+                "flight": [
+                    {
+                        "no": "CX 970",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 09:49",
+                "statusCode": null,
+                "destination": [
+                    "XMN"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "48"
+            },
+            {
+                "time": "09:40",
+                "flight": [
+                    {
+                        "no": "HX 252",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "BR 2898",
+                        "airline": "EVA"
+                    }
+                ],
+                "status": "Dep 10:01",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "524"
+            },
+            {
+                "time": "09:40",
+                "flight": [
+                    {
+                        "no": "5J 241",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "Dep 10:24",
+                "statusCode": null,
+                "destination": [
+                    "CEB"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "8"
+            },
+            {
+                "time": "09:50",
+                "flight": [
+                    {
+                        "no": "BR 892",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1820",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 10:12",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "31"
+            },
+            {
+                "time": "09:50",
+                "flight": [
+                    {
+                        "no": "CX 450",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7044",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 10:05",
+                "statusCode": null,
+                "destination": [
+                    "TPE",
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "2"
+            },
+            {
+                "time": "09:55",
+                "flight": [
+                    {
+                        "no": "HX 398",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8084",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 09:46",
+                "statusCode": null,
+                "destination": [
+                    "PKX"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "520"
+            },
+            {
+                "time": "10:00",
+                "flight": [
+                    {
+                        "no": "CX 785",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3485",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7931",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8915",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 10:15",
+                "statusCode": null,
+                "destination": [
+                    "DPS"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "11"
+            },
+            {
+                "time": "10:00",
+                "flight": [
+                    {
+                        "no": "CX 986",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6522",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 10:06",
+                "statusCode": null,
+                "destination": [
+                    "TFU"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "32"
+            },
+            {
+                "time": "10:00",
+                "flight": [
+                    {
+                        "no": "UO 642",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5642",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 10:11",
+                "statusCode": null,
+                "destination": [
+                    "TAK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "16"
+            },
+            {
+                "time": "10:10",
+                "flight": [
+                    {
+                        "no": "CX 536",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7036",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QF 8213",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "Dep 10:25",
+                "statusCode": null,
+                "destination": [
+                    "NGO"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "1"
+            },
+            {
+                "time": "10:15",
+                "flight": [
+                    {
+                        "no": "CX 954",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 10:30",
+                "statusCode": null,
+                "destination": [
+                    "TAO"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "67"
+            },
+            {
+                "time": "10:20",
+                "flight": [
+                    {
+                        "no": "CX 494",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 10:33",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "28"
+            },
+            {
+                "time": "10:20",
+                "flight": [
+                    {
+                        "no": "CX 506",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7052",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 10:52",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "50"
+            },
+            {
+                "time": "10:25",
+                "flight": [
+                    {
+                        "no": "HX 640",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 10:23",
+                "statusCode": null,
+                "destination": [
+                    "FUK"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "17"
+            },
+            {
+                "time": "10:30",
+                "flight": [
+                    {
+                        "no": "CX 520",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7046",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8882",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 10:52",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "26"
+            },
+            {
+                "time": "10:35",
+                "flight": [
+                    {
+                        "no": "UO 870",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 10:40",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "513"
+            },
+            {
+                "time": "10:40",
+                "flight": [
+                    {
+                        "no": "JL 736",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8418",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "CX 6322",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9120",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "WS 5911",
+                        "airline": "WJA"
+                    },
+                    {
+                        "no": "HA 5382",
+                        "airline": "HAL"
+                    }
+                ],
+                "status": "Dep 10:44",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "6"
+            },
+            {
+                "time": "10:45",
+                "flight": [
+                    {
+                        "no": "CX 828",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 11:27",
+                "statusCode": null,
+                "destination": [
+                    "YYZ"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "69"
+            },
+            {
+                "time": "10:45",
+                "flight": [
+                    {
+                        "no": "FD 516",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "Dep 10:42",
+                "statusCode": null,
+                "destination": [
+                    "CNX"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "49"
+            },
+            {
+                "time": "10:50",
+                "flight": [
+                    {
+                        "no": "UO 620",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 10:54",
+                "statusCode": null,
+                "destination": [
+                    "FUK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "521"
+            },
+            {
+                "time": "10:55",
+                "flight": [
+                    {
+                        "no": "UO 110",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 10:59",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "19"
+            },
+            {
+                "time": "11:00",
+                "flight": [
+                    {
+                        "no": "CX 588",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7058",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 11:21",
+                "statusCode": null,
+                "destination": [
+                    "FUK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "45"
+            },
+            {
+                "time": "11:00",
+                "flight": [
+                    {
+                        "no": "5J 111",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "Dep 11:11",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "68"
+            },
+            {
+                "time": "11:05",
+                "flight": [
+                    {
+                        "no": "TR 981",
+                        "airline": "TGW"
+                    }
+                ],
+                "status": "Dep 11:33",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "43"
+            },
+            {
+                "time": "11:05",
+                "flight": [
+                    {
+                        "no": "CI 904",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "Dep 11:03",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "70"
+            },
+            {
+                "time": "11:10",
+                "flight": [
+                    {
+                        "no": "PR 301",
+                        "airline": "PAL"
+                    }
+                ],
+                "status": "Dep 11:41",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "29"
+            },
+            {
+                "time": "11:10",
+                "flight": [
+                    {
+                        "no": "FD 509",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "Dep 11:14",
+                "statusCode": null,
+                "destination": [
+                    "DMK"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "47"
+            },
+            {
+                "time": "11:10",
+                "flight": [
+                    {
+                        "no": "CX 2739",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 11:42",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "62"
+            },
+            {
+                "time": "11:15",
+                "flight": [
+                    {
+                        "no": "CX 163",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3487",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AY 5845",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "BA 4577",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "Dep 12:07",
+                "statusCode": null,
+                "destination": [
+                    "MEL"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "5"
+            },
+            {
+                "time": "11:15",
+                "flight": [
+                    {
+                        "no": "HX 658",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 11:16",
+                "statusCode": null,
+                "destination": [
+                    "OKA"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "44"
+            },
+            {
+                "time": "11:15",
+                "flight": [
+                    {
+                        "no": "UA 862",
+                        "airline": "UAL"
+                    }
+                ],
+                "status": "Dep 11:15",
+                "statusCode": null,
+                "destination": [
+                    "SFO"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "7"
+            },
+            {
+                "time": "11:20",
+                "flight": [
+                    {
+                        "no": "HX 161",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8082",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 11:29",
+                "statusCode": null,
+                "destination": [
+                    "SYX"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "522"
+            },
+            {
+                "time": "11:20",
+                "flight": [
+                    {
+                        "no": "UO 898",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 11:19",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "21"
+            },
+            {
+                "time": "11:30",
+                "flight": [
+                    {
+                        "no": "HX 618",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7172",
+                        "airline": "AIC"
+                    },
+                    {
+                        "no": "TK 8876",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "Dep 11:27",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "33"
+            },
+            {
+                "time": "11:30",
+                "flight": [
+                    {
+                        "no": "CX 2717",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 12:09",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "35"
+            },
+            {
+                "time": "11:35",
+                "flight": [
+                    {
+                        "no": "UO 690",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 11:44",
+                "statusCode": null,
+                "destination": [
+                    "NGO"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "523"
+            },
+            {
+                "time": "11:35",
+                "flight": [
+                    {
+                        "no": "MU 766",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3026",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "Dep 11:25",
+                "statusCode": null,
+                "destination": [
+                    "NKG"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "27"
+            },
+            {
+                "time": "11:40",
+                "flight": [
+                    {
+                        "no": "CX 370",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 11:37",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "15"
+            },
+            {
+                "time": "11:50",
+                "flight": [
+                    {
+                        "no": "HO 1302",
+                        "airline": "DKH"
+                    }
+                ],
+                "status": "Dep 11:51",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "46"
+            },
+            {
+                "time": "12:00",
+                "flight": [
+                    {
+                        "no": "AK 139",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "Dep 13:00",
+                "statusCode": null,
+                "destination": [
+                    "KUL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "49"
+            },
+            {
+                "time": "12:00",
+                "flight": [
+                    {
+                        "no": "CX 332",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6502",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 12:04",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "65"
+            },
+            {
+                "time": "12:05",
+                "flight": [
+                    {
+                        "no": "OM 298",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "CX 6200",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 11:59",
+                "statusCode": null,
+                "destination": [
+                    "UBN"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "40"
+            },
+            {
+                "time": "12:05",
+                "flight": [
+                    {
+                        "no": "MU 722",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3002",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "Dep 11:58",
+                "statusCode": null,
+                "destination": [
+                    "SHA"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "23"
+            },
+            {
+                "time": "12:10",
+                "flight": [
+                    {
+                        "no": "7C 2104",
+                        "airline": "JJA"
+                    }
+                ],
+                "status": "Dep 12:25",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "32"
+            },
+            {
+                "time": "12:15",
+                "flight": [
+                    {
+                        "no": "CX 960",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 12:22",
+                "statusCode": null,
+                "destination": [
+                    "HGH"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "8"
+            },
+            {
+                "time": "12:15",
+                "flight": [
+                    {
+                        "no": "KE 172",
+                        "airline": "KAL"
+                    },
+                    {
+                        "no": "DL 7886",
+                        "airline": "DAL"
+                    }
+                ],
+                "status": "Dep 12:15",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "30"
+            },
+            {
+                "time": "12:20",
+                "flight": [
+                    {
+                        "no": "CA 412",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6122",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 12:06",
+                "statusCode": null,
+                "destination": [
+                    "TFU"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "25"
+            },
+            {
+                "time": "12:20",
+                "flight": [
+                    {
+                        "no": "KL 888",
+                        "airline": "KLM"
+                    },
+                    {
+                        "no": "AF 8404",
+                        "airline": "AFR"
+                    }
+                ],
+                "status": "Dep 12:16",
+                "statusCode": null,
+                "destination": [
+                    "AMS"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "28"
+            },
+            {
+                "time": "12:25",
+                "flight": [
+                    {
+                        "no": "SQ 875",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "Dep 12:51",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "6"
+            },
+            {
+                "time": "12:25",
+                "flight": [
+                    {
+                        "no": "UO 112",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 12:29",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "520"
+            },
+            {
+                "time": "12:30",
+                "flight": [
+                    {
+                        "no": "CZ 3076",
+                        "airline": "CSN"
+                    }
+                ],
+                "status": "Dep 12:22",
+                "statusCode": null,
+                "destination": [
+                    "WUH"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "26"
+            },
+            {
+                "time": "12:30",
+                "flight": [
+                    {
+                        "no": "MF 8656",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "Dep 12:33",
+                "statusCode": null,
+                "destination": [
+                    "HGH"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "34"
+            },
+            {
+                "time": "12:35",
+                "flight": [
+                    {
+                        "no": "HX 254",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 12:45",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "18"
+            },
+            {
+                "time": "12:35",
+                "flight": [
+                    {
+                        "no": "HX 775",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 12:39",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "17"
+            },
+            {
+                "time": "12:35",
+                "flight": [
+                    {
+                        "no": "UO 638",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 12:38",
+                "statusCode": null,
+                "destination": [
+                    "FUK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "521"
+            },
+            {
+                "time": "12:40",
+                "flight": [
+                    {
+                        "no": "CX 884",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8937",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 13:12",
+                "statusCode": null,
+                "destination": [
+                    "LAX"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "41"
+            },
+            {
+                "time": "12:45",
+                "flight": [
+                    {
+                        "no": "CA 102",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 12:35",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "31"
+            },
+            {
+                "time": "12:45",
+                "flight": [
+                    {
+                        "no": "MU 2068",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "Dep 14:06",
+                "statusCode": null,
+                "destination": [
+                    "HFE"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "47"
+            },
+            {
+                "time": "12:45",
+                "flight": [
+                    {
+                        "no": "OZ 722",
+                        "airline": "AAR"
+                    }
+                ],
+                "status": "Dep 12:54",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "10"
+            },
+            {
+                "time": "12:45",
+                "flight": [
+                    {
+                        "no": "CX 725",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9195",
+                        "airline": "MAS"
+                    }
+                ],
+                "status": "Dep 13:07",
+                "statusCode": null,
+                "destination": [
+                    "KUL"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "68"
+            },
+            {
+                "time": "12:45",
+                "flight": [
+                    {
+                        "no": "UO 132",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 12:48",
+                "statusCode": null,
+                "destination": [
+                    "KHH"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "19"
+            },
+            {
+                "time": "12:45",
+                "flight": [
+                    {
+                        "no": "TG 601",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "GF 6301",
+                        "airline": "GFA"
+                    },
+                    {
+                        "no": "WE 5601",
+                        "airline": "THD"
+                    },
+                    {
+                        "no": "WY 5903",
+                        "airline": "OMA"
+                    }
+                ],
+                "status": "Dep 13:48",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "62"
+            },
+            {
+                "time": "12:50",
+                "flight": [
+                    {
+                        "no": "CA 104",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6104",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 12:51",
+                "statusCode": null,
+                "destination": [
+                    "TSN"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "29"
+            },
+            {
+                "time": "12:50",
+                "flight": [
+                    {
+                        "no": "MU 5018",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3022",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "Dep 13:17",
+                "statusCode": null,
+                "destination": [
+                    "SHA"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "11"
+            },
+            {
+                "time": "12:55",
+                "flight": [
+                    {
+                        "no": "ZH 9092",
+                        "airline": "CSZ"
+                    },
+                    {
+                        "no": "CX 6248",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 3856",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 12:49",
+                "statusCode": null,
+                "destination": [
+                    "JJN"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "50"
+            },
+            {
+                "time": "12:55",
+                "flight": [
+                    {
+                        "no": "CX 2474",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 13:03",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "2"
+            },
+            {
+                "time": "13:00",
+                "flight": [
+                    {
+                        "no": "UO 646",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 13:03",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "13"
+            },
+            {
+                "time": "13:10",
+                "flight": [
+                    {
+                        "no": "HX 246",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8359",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 13:18",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "15"
+            },
+            {
+                "time": "13:10",
+                "flight": [
+                    {
+                        "no": "CX 253",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 13:29",
+                "statusCode": null,
+                "destination": [
+                    "LHR"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "64"
+            },
+            {
+                "time": "13:20",
+                "flight": [
+                    {
+                        "no": "9C 8716",
+                        "airline": "CQH"
+                    }
+                ],
+                "status": "Dep 13:35",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "44"
+            },
+            {
+                "time": "13:25",
+                "flight": [
+                    {
+                        "no": "UO 700",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 13:25",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "48"
+            },
+            {
+                "time": "13:35",
+                "flight": [
+                    {
+                        "no": "CX 928",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6518",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 14:13",
+                "statusCode": null,
+                "destination": [
+                    "CKG"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "70"
+            },
+            {
+                "time": "13:40",
+                "flight": [
+                    {
+                        "no": "BR 868",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1824",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 13:47",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "33"
+            },
+            {
+                "time": "13:40",
+                "flight": [
+                    {
+                        "no": "CX 360",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 13:50",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "43"
+            },
+            {
+                "time": "13:40",
+                "flight": [
+                    {
+                        "no": "SC 4790",
+                        "airline": "CDG"
+                    }
+                ],
+                "status": "Dep 13:35",
+                "statusCode": null,
+                "destination": [
+                    "TNA"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "45"
+            },
+            {
+                "time": "13:50",
+                "flight": [
+                    {
+                        "no": "CZ 310",
+                        "airline": "CSN"
+                    }
+                ],
+                "status": "Dep 13:41",
+                "statusCode": null,
+                "destination": [
+                    "PKX"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "60"
+            },
+            {
+                "time": "13:55",
+                "flight": [
+                    {
+                        "no": "CI 910",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "Dep 14:24",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "8"
+            },
+            {
+                "time": "13:55",
+                "flight": [
+                    {
+                        "no": "CX 870",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AA 8929",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 14:21",
+                "statusCode": null,
+                "destination": [
+                    "SFO"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "3"
+            },
+            {
+                "time": "13:55",
+                "flight": [
+                    {
+                        "no": "UO 172",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 14:03",
+                "statusCode": null,
+                "destination": [
+                    "RMQ"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "16"
+            },
+            {
+                "time": "14:00",
+                "flight": [
+                    {
+                        "no": "CX 392",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6512",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 14:29",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "30"
+            },
+            {
+                "time": "14:00",
+                "flight": [
+                    {
+                        "no": "UO 650",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 14:03",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "19"
+            },
+            {
+                "time": "14:05",
+                "flight": [
+                    {
+                        "no": "CX 310",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 14:11",
+                "statusCode": null,
+                "destination": [
+                    "HAK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "42"
+            },
+            {
+                "time": "14:05",
+                "flight": [
+                    {
+                        "no": "CX 919",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 14:16",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "69"
+            },
+            {
+                "time": "14:05",
+                "flight": [
+                    {
+                        "no": "MU 702",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "Dep 14:02",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "40"
+            },
+            {
+                "time": "14:10",
+                "flight": [
+                    {
+                        "no": "CX 779",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3479",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7921",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "AA 8920",
+                        "airline": "AAL"
+                    },
+                    {
+                        "no": "BA 4571",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "Dep 14:37",
+                "statusCode": null,
+                "destination": [
+                    "SUB"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "36"
+            },
+            {
+                "time": "14:20",
+                "flight": [
+                    {
+                        "no": "HX 216",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8209",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 14:23",
+                "statusCode": null,
+                "destination": [
+                    "NKG"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "18"
+            },
+            {
+                "time": "14:25",
+                "flight": [
+                    {
+                        "no": "CX 418",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 14:51",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "66"
+            },
+            {
+                "time": "14:25",
+                "flight": [
+                    {
+                        "no": "CX 751",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "PG 4558",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "QR 3472",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "OM 5637",
+                        "airline": "MGL"
+                    }
+                ],
+                "status": "Dep 14:44",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "1"
+            },
+            {
+                "time": "14:30",
+                "flight": [
+                    {
+                        "no": "VN 593",
+                        "airline": "HVN"
+                    }
+                ],
+                "status": "Dep 14:49",
+                "statusCode": null,
+                "destination": [
+                    "HAN"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "26"
+            },
+            {
+                "time": "14:35",
+                "flight": [
+                    {
+                        "no": "CA 112",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6112",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 14:33",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "7"
+            },
+            {
+                "time": "14:35",
+                "flight": [
+                    {
+                        "no": "HX 612",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7170",
+                        "airline": "AIC"
+                    },
+                    {
+                        "no": "TK 9200",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "Dep 14:42",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "17"
+            },
+            {
+                "time": "14:35",
+                "flight": [
+                    {
+                        "no": "MH 073",
+                        "airline": "MAS"
+                    },
+                    {
+                        "no": "CX 6001",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "FY 7051",
+                        "airline": "FFM"
+                    },
+                    {
+                        "no": "WY 5073",
+                        "airline": "OMA"
+                    },
+                    {
+                        "no": "EY 2730",
+                        "airline": "ETD"
+                    },
+                    {
+                        "no": "AY 6625",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QR 4971",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "Dep 16:19",
+                "statusCode": null,
+                "destination": [
+                    "KUL"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "66"
+            },
+            {
+                "time": "14:55",
+                "flight": [
+                    {
+                        "no": "BI 636",
+                        "airline": "RBA"
+                    }
+                ],
+                "status": "Dep 14:51",
+                "statusCode": null,
+                "destination": [
+                    "BWN"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "28"
+            },
+            {
+                "time": "14:55",
+                "flight": [
+                    {
+                        "no": "UO 688",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 14:59",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "513"
+            },
+            {
+                "time": "15:00",
+                "flight": [
+                    {
+                        "no": "CX 380",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 15:12",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "41"
+            },
+            {
+                "time": "15:05",
+                "flight": [
+                    {
+                        "no": "NH 860",
+                        "airline": "ANA"
+                    },
+                    {
+                        "no": "UA 7918",
+                        "airline": "UAL"
+                    }
+                ],
+                "status": "Dep 15:03",
+                "statusCode": null,
+                "destination": [
+                    "HND"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "27"
+            },
+            {
+                "time": "15:05",
+                "flight": [
+                    {
+                        "no": "MU 508",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3008",
+                        "airline": "CSH"
+                    },
+                    {
+                        "no": "HO 3504",
+                        "airline": "DKH"
+                    }
+                ],
+                "status": "Dep 15:20",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "62"
+            },
+            {
+                "time": "15:10",
+                "flight": [
+                    {
+                        "no": "CX 500",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5852",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7048",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 15:21",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "5"
+            },
+            {
+                "time": "15:15",
+                "flight": [
+                    {
+                        "no": "JL 026",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "CX 6320",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "HA 5000",
+                        "airline": "HAL"
+                    }
+                ],
+                "status": "Dep 15:08",
+                "statusCode": null,
+                "destination": [
+                    "HND"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "6"
+            },
+            {
+                "time": "15:15",
+                "flight": [
+                    {
+                        "no": "OD 606",
+                        "airline": "MXD"
+                    }
+                ],
+                "status": "Dep 15:16",
+                "statusCode": null,
+                "destination": [
+                    "KUL"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "44"
+            },
+            {
+                "time": "15:20",
+                "flight": [
+                    {
+                        "no": "VN 595",
+                        "airline": "HVN"
+                    }
+                ],
+                "status": "Dep 15:25",
+                "statusCode": null,
+                "destination": [
+                    "SGN"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "10"
+            },
+            {
+                "time": "15:25",
+                "flight": [
+                    {
+                        "no": "CA 420",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6130",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 15:22",
+                "statusCode": null,
+                "destination": [
+                    "CKG"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "46"
+            },
+            {
+                "time": "15:25",
+                "flight": [
+                    {
+                        "no": "BR 870",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1826",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 15:38",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "60"
+            },
+            {
+                "time": "15:30",
+                "flight": [
+                    {
+                        "no": "HX 610",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "AI 7162",
+                        "airline": "AIC"
+                    },
+                    {
+                        "no": "BI 3403",
+                        "airline": "RBA"
+                    }
+                ],
+                "status": "Dep 15:45",
+                "statusCode": null,
+                "destination": [
+                    "NRT"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "49"
+            },
+            {
+                "time": "15:30",
+                "flight": [
+                    {
+                        "no": "UO 566",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5566",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 15:32",
+                "statusCode": null,
+                "destination": [
+                    "CXR"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "14"
+            },
+            {
+                "time": "15:35",
+                "flight": [
+                    {
+                        "no": "HX 238",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8361",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 16:07",
+                "statusCode": null,
+                "destination": [
+                    "SHA"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "47"
+            },
+            {
+                "time": "15:35",
+                "flight": [
+                    {
+                        "no": "FD 501",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "Dep 15:32",
+                "statusCode": null,
+                "destination": [
+                    "DMK"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "42"
+            },
+            {
+                "time": "15:40",
+                "flight": [
+                    {
+                        "no": "SQ 893",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "Dep 16:12",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "23"
+            },
+            {
+                "time": "15:40",
+                "flight": [
+                    {
+                        "no": "UO 862",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 15:37",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "20"
+            },
+            {
+                "time": "15:45",
+                "flight": [
+                    {
+                        "no": "CX 472",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:16",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "69"
+            },
+            {
+                "time": "15:50",
+                "flight": [
+                    {
+                        "no": "HX 312",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8192",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 16:45",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "45"
+            },
+            {
+                "time": "15:55",
+                "flight": [
+                    {
+                        "no": "CX 701",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3451",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "OM 5639",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "FJ 5454",
+                        "airline": "FJI"
+                    },
+                    {
+                        "no": "PG 4560",
+                        "airline": "BKP"
+                    }
+                ],
+                "status": "Dep 16:09",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "64"
+            },
+            {
+                "time": "16:00",
+                "flight": [
+                    {
+                        "no": "CX 605",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:04",
+                "statusCode": null,
+                "destination": [
+                    "PNH"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "13"
+            },
+            {
+                "time": "16:00",
+                "flight": [
+                    {
+                        "no": "MU 504",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "Dep 15:58",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "8"
+            },
+            {
+                "time": "16:05",
+                "flight": [
+                    {
+                        "no": "CX 810",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:30",
+                "statusCode": null,
+                "destination": [
+                    "YVR"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "32"
+            },
+            {
+                "time": "16:05",
+                "flight": [
+                    {
+                        "no": "CZ 636",
+                        "airline": "CSN"
+                    }
+                ],
+                "status": "Dep 15:52",
+                "statusCode": null,
+                "destination": [
+                    "SHE"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "50"
+            },
+            {
+                "time": "16:10",
+                "flight": [
+                    {
+                        "no": "CX 799",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5825",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7927",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "VN 3561",
+                        "airline": "HVN"
+                    },
+                    {
+                        "no": "OM 5627",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "QF 8241",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "BA 4563",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "Dep 16:18",
+                "statusCode": null,
+                "destination": [
+                    "SGN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "30"
+            },
+            {
+                "time": "16:15",
+                "flight": [
+                    {
+                        "no": "ET 644",
+                        "airline": "ETH"
+                    }
+                ],
+                "status": "Dep 15:59",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "",
+                "gate": "43"
+            },
+            {
+                "time": "16:15",
+                "flight": [
+                    {
+                        "no": "CX 840",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "MH 9184",
+                        "airline": "MAS"
+                    }
+                ],
+                "status": "Dep 16:33",
+                "statusCode": null,
+                "destination": [
+                    "JFK"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "9"
+            },
+            {
+                "time": "16:20",
+                "flight": [
+                    {
+                        "no": "CX 542",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5842",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "JL 7032",
+                        "airline": "JAL"
+                    }
+                ],
+                "status": "Dep 16:29",
+                "statusCode": null,
+                "destination": [
+                    "HND"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "33"
+            },
+            {
+                "time": "16:20",
+                "flight": [
+                    {
+                        "no": "CX 925",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "PR 3197",
+                        "airline": "PAL"
+                    }
+                ],
+                "status": "Dep 16:29",
+                "statusCode": null,
+                "destination": [
+                    "CEB"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "21"
+            },
+            {
+                "time": "16:25",
+                "flight": [
+                    {
+                        "no": "CX 416",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QF 8227",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "QR 5832",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "Dep 16:29",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "2"
+            },
+            {
+                "time": "16:25",
+                "flight": [
+                    {
+                        "no": "UO 558",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5558",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:35",
+                "statusCode": null,
+                "destination": [
+                    "DAD"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "44"
+            },
+            {
+                "time": "16:30",
+                "flight": [
+                    {
+                        "no": "CX 502",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7056",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "QR 5808",
+                        "airline": "QTR"
+                    }
+                ],
+                "status": "Dep 16:52",
+                "statusCode": null,
+                "destination": [
+                    "KIX"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "25"
+            },
+            {
+                "time": "16:30",
+                "flight": [
+                    {
+                        "no": "CZ 604",
+                        "airline": "CSN"
+                    }
+                ],
+                "status": "Dep 16:19",
+                "statusCode": null,
+                "destination": [
+                    "URC"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "26"
+            },
+            {
+                "time": "16:35",
+                "flight": [
+                    {
+                        "no": "CX 903",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:50",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "65"
+            },
+            {
+                "time": "16:40",
+                "flight": [
+                    {
+                        "no": "CX 711",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3453",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "OM 5735",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "FJ 5460",
+                        "airline": "FJI"
+                    },
+                    {
+                        "no": "AA 8901",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 16:46",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "63"
+            },
+            {
+                "time": "16:45",
+                "flight": [
+                    {
+                        "no": "CI 932",
+                        "airline": "CAL"
+                    },
+                    {
+                        "no": "AE 5312",
+                        "airline": "MDA"
+                    }
+                ],
+                "status": "Dep 16:39",
+                "statusCode": null,
+                "destination": [
+                    "KHH"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "10"
+            },
+            {
+                "time": "16:45",
+                "flight": [
+                    {
+                        "no": "UO 744",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5744",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:45",
+                "statusCode": null,
+                "destination": [
+                    "CNX"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "16"
+            },
+            {
+                "time": "16:50",
+                "flight": [
+                    {
+                        "no": "CX 458",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:59",
+                "statusCode": null,
+                "destination": [
+                    "KHH"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "68"
+            },
+            {
+                "time": "16:50",
+                "flight": [
+                    {
+                        "no": "CX 731",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 17:59",
+                "statusCode": null,
+                "destination": [
+                    "DXB"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "3"
+            },
+            {
+                "time": "16:50",
+                "flight": [
+                    {
+                        "no": "CX 743",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5811",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "VN 3567",
+                        "airline": "HVN"
+                    },
+                    {
+                        "no": "AC 9797",
+                        "airline": "ACA"
+                    }
+                ],
+                "status": "Dep 16:49",
+                "statusCode": null,
+                "destination": [
+                    "HAN"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "70"
+            },
+            {
+                "time": "16:50",
+                "flight": [
+                    {
+                        "no": "UO 626",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 17:08",
+                "statusCode": null,
+                "destination": [
+                    "ICN"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "20"
+            },
+            {
+                "time": "16:55",
+                "flight": [
+                    {
+                        "no": "CA 106",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6106",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 16:59",
+                "statusCode": null,
+                "destination": [
+                    "DLC"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "7"
+            },
+            {
+                "time": "16:55",
+                "flight": [
+                    {
+                        "no": "UO 702",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 16:59",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "19"
+            },
+            {
+                "time": "17:00",
+                "flight": [
+                    {
+                        "no": "MU 596",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "MF 9050",
+                        "airline": "CXA"
+                    },
+                    {
+                        "no": "FM 3024",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "Dep 18:59",
+                "statusCode": null,
+                "destination": [
+                    "HGH"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "36"
+            },
+            {
+                "time": "17:05",
+                "flight": [
+                    {
+                        "no": "MU 734",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "MF 9040",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "Dep 17:19",
+                "statusCode": null,
+                "destination": [
+                    "KMG"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "41"
+            },
+            {
+                "time": "17:10",
+                "flight": [
+                    {
+                        "no": "CI 916",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "Dep 17:12",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "60"
+            },
+            {
+                "time": "17:20",
+                "flight": [
+                    {
+                        "no": "CX 826",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 17:35",
+                "statusCode": null,
+                "destination": [
+                    "YYZ"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "36"
+            },
+            {
+                "time": "17:25",
+                "flight": [
+                    {
+                        "no": "CA 428",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6128",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 17:16",
+                "statusCode": null,
+                "destination": [
+                    "TFU"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "24"
+            },
+            {
+                "time": "17:25",
+                "flight": [
+                    {
+                        "no": "CX 364",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 17:28",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "27"
+            },
+            {
+                "time": "17:30",
+                "flight": [
+                    {
+                        "no": "CA 110",
+                        "airline": "CCA"
+                    },
+                    {
+                        "no": "CX 6110",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 17:26",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "47"
+            },
+            {
+                "time": "17:30",
+                "flight": [
+                    {
+                        "no": "GJ 8054",
+                        "airline": "CDC"
+                    }
+                ],
+                "status": "Dep 17:29",
+                "statusCode": null,
+                "destination": [
+                    "HGH"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "28"
+            },
+            {
+                "time": "17:35",
+                "flight": [
+                    {
+                        "no": "UO 622",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 17:30",
+                "statusCode": null,
+                "destination": [
+                    "HND"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "15"
+            },
+            {
+                "time": "17:40",
+                "flight": [
+                    {
+                        "no": "HB 683",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "Dep 17:36",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "66"
+            },
+            {
+                "time": "17:45",
+                "flight": [
+                    {
+                        "no": "NZ 080",
+                        "airline": "ANZ"
+                    },
+                    {
+                        "no": "CX 7401",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "LH 7158",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "TG 4863",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "TK 8722",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "Dep 17:53",
+                "statusCode": null,
+                "destination": [
+                    "AKL"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "42"
+            },
+            {
+                "time": "17:45",
+                "flight": [
+                    {
+                        "no": "CX 695",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7909",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "OM 5753",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "QF 8243",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "AA 8886",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 18:08",
+                "statusCode": null,
+                "destination": [
+                    "DEL"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "31"
+            },
+            {
+                "time": "17:50",
+                "flight": [
+                    {
+                        "no": "9C 8922",
+                        "airline": "CQH"
+                    }
+                ],
+                "status": "Dep 17:50",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "35"
+            },
+            {
+                "time": "17:50",
+                "flight": [
+                    {
+                        "no": "CX 990",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 18:02",
+                "statusCode": null,
+                "destination": [
+                    "FOC"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "8"
+            },
+            {
+                "time": "17:55",
+                "flight": [
+                    {
+                        "no": "HU 704",
+                        "airline": "CHH"
+                    },
+                    {
+                        "no": "HX 1202",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 17:48",
+                "statusCode": null,
+                "destination": [
+                    "HAK"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "6"
+            },
+            {
+                "time": "18:00",
+                "flight": [
+                    {
+                        "no": "PR 307",
+                        "airline": "PAL"
+                    }
+                ],
+                "status": "Dep 18:07",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "43"
+            },
+            {
+                "time": "18:00",
+                "flight": [
+                    {
+                        "no": "AC 008",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "TG 5866",
+                        "airline": "THA"
+                    }
+                ],
+                "status": "Dep 18:43",
+                "statusCode": null,
+                "destination": [
+                    "YVR"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "40"
+            },
+            {
+                "time": "18:05",
+                "flight": [
+                    {
+                        "no": "MU 5016",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "Dep 17:58",
+                "statusCode": null,
+                "destination": [
+                    "PKX"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "49"
+            },
+            {
+                "time": "18:15",
+                "flight": [
+                    {
+                        "no": "CX 402",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 18:28",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "23"
+            },
+            {
+                "time": "18:15",
+                "flight": [
+                    {
+                        "no": "Z2 1265",
+                        "airline": "APG"
+                    }
+                ],
+                "status": "Dep 18:24",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "50"
+            },
+            {
+                "time": "18:20",
+                "flight": [
+                    {
+                        "no": "VJ 873",
+                        "airline": "VJC"
+                    }
+                ],
+                "status": "Dep 18:27",
+                "statusCode": null,
+                "destination": [
+                    "DAD"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "10"
+            },
+            {
+                "time": "18:25",
+                "flight": [
+                    {
+                        "no": "CX 812",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 18:31",
+                "statusCode": null,
+                "destination": [
+                    "BOS"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "32"
+            },
+            {
+                "time": "18:35",
+                "flight": [
+                    {
+                        "no": "HX 282",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "BR 2892",
+                        "airline": "EVA"
+                    }
+                ],
+                "status": "Dep 18:34",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "14"
+            },
+            {
+                "time": "18:35",
+                "flight": [
+                    {
+                        "no": "CX 703",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3452",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AC 9787",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "PG 4562",
+                        "airline": "BKP"
+                    },
+                    {
+                        "no": "AA 8895",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 18:36",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "67"
+            },
+            {
+                "time": "18:35",
+                "flight": [
+                    {
+                        "no": "UO 116",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 18:41",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "24"
+            },
+            {
+                "time": "18:40",
+                "flight": [
+                    {
+                        "no": "HX 107",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8052",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 18:43",
+                "statusCode": null,
+                "destination": [
+                    "HAK"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "70"
+            },
+            {
+                "time": "18:50",
+                "flight": [
+                    {
+                        "no": "SQ 895",
+                        "airline": "SIA"
+                    }
+                ],
+                "status": "Dep 18:49",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "25"
+            },
+            {
+                "time": "18:50",
+                "flight": [
+                    {
+                        "no": "HX 765",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "TK 9224",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "Dep 18:51",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "68"
+            },
+            {
+                "time": "18:50",
+                "flight": [
+                    {
+                        "no": "FM 810",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "Dep 19:00",
+                "statusCode": null,
+                "destination": [
+                    "SHA"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "41"
+            },
+            {
+                "time": "18:50",
+                "flight": [
+                    {
+                        "no": "3U 3960",
+                        "airline": "CSC"
+                    }
+                ],
+                "status": "Dep 18:42",
+                "statusCode": null,
+                "destination": [
+                    "TFU"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "11"
+            },
+            {
+                "time": "18:50",
+                "flight": [
+                    {
+                        "no": "MF 8652",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "Dep 19:21",
+                "statusCode": null,
+                "destination": [
+                    "FOC"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "35"
+            },
+            {
+                "time": "18:55",
+                "flight": [
+                    {
+                        "no": "AK 137",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "Dep 18:51",
+                "statusCode": null,
+                "destination": [
+                    "KUL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "42"
+            },
+            {
+                "time": "19:00",
+                "flight": [
+                    {
+                        "no": "CX 344",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6508",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 18:58",
+                "statusCode": null,
+                "destination": [
+                    "PEK"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "69"
+            },
+            {
+                "time": "19:05",
+                "flight": [
+                    {
+                        "no": "CX 797",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 5809",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "BA 4575",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "Dep 19:06",
+                "statusCode": null,
+                "destination": [
+                    "CGK"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "1"
+            },
+            {
+                "time": "19:05",
+                "flight": [
+                    {
+                        "no": "HB 504",
+                        "airline": "HGB"
+                    }
+                ],
+                "status": "Dep 19:18",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "28"
+            },
+            {
+                "time": "19:10",
+                "flight": [
+                    {
+                        "no": "CX 362",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 19:10",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "30"
+            },
+            {
+                "time": "19:10",
+                "flight": [
+                    {
+                        "no": "ZH 8034",
+                        "airline": "CSZ"
+                    },
+                    {
+                        "no": "CA 3820",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 19:05",
+                "statusCode": null,
+                "destination": [
+                    "TFU"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "66"
+            },
+            {
+                "time": "19:15",
+                "flight": [
+                    {
+                        "no": "CX 916",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "CA 6500",
+                        "airline": "CCA"
+                    }
+                ],
+                "status": "Dep 19:19",
+                "statusCode": null,
+                "destination": [
+                    "TFU"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "20"
+            },
+            {
+                "time": "19:25",
+                "flight": [
+                    {
+                        "no": "5J 113",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "Dep 19:36",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "6"
+            },
+            {
+                "time": "19:30",
+                "flight": [
+                    {
+                        "no": "QR 817",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "WY 6063",
+                        "airline": "OMA"
+                    },
+                    {
+                        "no": "BA 2354",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "CX 9203",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "IB 7924",
+                        "airline": "IBE"
+                    },
+                    {
+                        "no": "LA 6039",
+                        "airline": "LAN"
+                    },
+                    {
+                        "no": "JU 8318",
+                        "airline": "ASL"
+                    }
+                ],
+                "status": "Dep 19:34",
+                "statusCode": null,
+                "destination": [
+                    "DOH"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "48"
+            },
+            {
+                "time": "19:30",
+                "flight": [
+                    {
+                        "no": "QF 128",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "AF 9674",
+                        "airline": "AFR"
+                    },
+                    {
+                        "no": "AY 5005",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "BA 7496",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LA 4894",
+                        "airline": "LAN"
+                    },
+                    {
+                        "no": "LY 8791",
+                        "airline": "ELY"
+                    }
+                ],
+                "status": "Dep 19:48",
+                "statusCode": null,
+                "destination": [
+                    "SYD"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "27"
+            },
+            {
+                "time": "19:35",
+                "flight": [
+                    {
+                        "no": "BR 872",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1832",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 19:55",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "43"
+            },
+            {
+                "time": "19:45",
+                "flight": [
+                    {
+                        "no": "UO 226",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5226",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 19:51",
+                "statusCode": null,
+                "destination": [
+                    "NGB"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "18"
+            },
+            {
+                "time": "19:50",
+                "flight": [
+                    {
+                        "no": "VJ 877",
+                        "airline": "VJC"
+                    }
+                ],
+                "status": "Dep 19:44",
+                "statusCode": null,
+                "destination": [
+                    "SGN"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "10"
+            },
+            {
+                "time": "19:50",
+                "flight": [
+                    {
+                        "no": "MF 8686",
+                        "airline": "CXA"
+                    }
+                ],
+                "status": "Dep 23:05",
+                "statusCode": null,
+                "destination": [
+                    "JJN"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "21"
+            },
+            {
+                "time": "20:00",
+                "flight": [
+                    {
+                        "no": "MU 2570",
+                        "airline": "CES"
+                    }
+                ],
+                "status": "Dep 19:47",
+                "statusCode": null,
+                "destination": [
+                    "WUH"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "71"
+            },
+            {
+                "time": "20:05",
+                "flight": [
+                    {
+                        "no": "TG 639",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "AC 7407",
+                        "airline": "ACA"
+                    },
+                    {
+                        "no": "NZ 4193",
+                        "airline": "ANZ"
+                    },
+                    {
+                        "no": "TK 8023",
+                        "airline": "THY"
+                    },
+                    {
+                        "no": "WE 5639",
+                        "airline": "THD"
+                    }
+                ],
+                "status": "Dep 20:59",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "28"
+            },
+            {
+                "time": "20:05",
+                "flight": [
+                    {
+                        "no": "UO 628",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 19:59",
+                "statusCode": null,
+                "destination": [
+                    "HND"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "17"
+            },
+            {
+                "time": "20:05",
+                "flight": [
+                    {
+                        "no": "MU 506",
+                        "airline": "CES"
+                    },
+                    {
+                        "no": "FM 3014",
+                        "airline": "CSH"
+                    }
+                ],
+                "status": "Dep 20:04",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "50"
+            },
+            {
+                "time": "20:05",
+                "flight": [
+                    {
+                        "no": "FD 525",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "Dep 19:54",
+                "statusCode": null,
+                "destination": [
+                    "HKT"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "42"
+            },
+            {
+                "time": "20:10",
+                "flight": [
+                    {
+                        "no": "AK 238",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "Dep 20:20",
+                "statusCode": null,
+                "destination": [
+                    "BKI"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "40"
+            },
+            {
+                "time": "20:10",
+                "flight": [
+                    {
+                        "no": "CI 920",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "Dep 20:19",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "31"
+            },
+            {
+                "time": "20:10",
+                "flight": [
+                    {
+                        "no": "CX 988",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 20:19",
+                "statusCode": null,
+                "destination": [
+                    "CAN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "15"
+            },
+            {
+                "time": "20:10",
+                "flight": [
+                    {
+                        "no": "UO 764",
+                        "airline": "HKE"
+                    },
+                    {
+                        "no": "CX 5764",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 20:13",
+                "statusCode": null,
+                "destination": [
+                    "HKT"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "49"
+            },
+            {
+                "time": "20:30",
+                "flight": [
+                    {
+                        "no": "CX 679",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "JL 7933",
+                        "airline": "JAL"
+                    },
+                    {
+                        "no": "OM 5603",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "QF 8251",
+                        "airline": "QFA"
+                    },
+                    {
+                        "no": "AA 8947",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 20:57",
+                "statusCode": null,
+                "destination": [
+                    "DEL"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "23"
+            },
+            {
+                "time": "20:35",
+                "flight": [
+                    {
+                        "no": "AY 100",
+                        "airline": "FIN"
+                    }
+                ],
+                "status": "Dep 20:46",
+                "statusCode": null,
+                "destination": [
+                    "HEL"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "5"
+            },
+            {
+                "time": "20:45",
+                "flight": [
+                    {
+                        "no": "CX 715",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "QR 3471",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "AY 5855",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "OM 5609",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "FJ 5462",
+                        "airline": "FJI"
+                    },
+                    {
+                        "no": "AA 8903",
+                        "airline": "AAL"
+                    }
+                ],
+                "status": "Dep 21:35",
+                "statusCode": null,
+                "destination": [
+                    "SIN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "8"
+            },
+            {
+                "time": "20:45",
+                "flight": [
+                    {
+                        "no": "PX 019",
+                        "airline": "ANG"
+                    },
+                    {
+                        "no": "CX 6899",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 01:32 (11/09/2023)",
+                "statusCode": null,
+                "destination": [
+                    "POM"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "23"
+            },
+            {
+                "time": "20:45",
+                "flight": [
+                    {
+                        "no": "TG 607",
+                        "airline": "THA"
+                    },
+                    {
+                        "no": "WE 5607",
+                        "airline": "THD"
+                    }
+                ],
+                "status": "Dep 21:52",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "30"
+            },
+            {
+                "time": "20:50",
+                "flight": [
+                    {
+                        "no": "HX 496",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8202",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 20:53",
+                "statusCode": null,
+                "destination": [
+                    "CKG"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "16"
+            },
+            {
+                "time": "21:05",
+                "flight": [
+                    {
+                        "no": "HX 128",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8518",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 21:06",
+                "statusCode": null,
+                "destination": [
+                    "HGH"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "20"
+            },
+            {
+                "time": "21:10",
+                "flight": [
+                    {
+                        "no": "BR 858",
+                        "airline": "EVA"
+                    },
+                    {
+                        "no": "HX 1834",
+                        "airline": "CRK"
+                    }
+                ],
+                "status": "Dep 21:41",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "E",
+                "gate": "36"
+            },
+            {
+                "time": "21:15",
+                "flight": [
+                    {
+                        "no": "CI 924",
+                        "airline": "CAL"
+                    }
+                ],
+                "status": "Dep 21:26",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "27"
+            },
+            {
+                "time": "21:20",
+                "flight": [
+                    {
+                        "no": "HX 234",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "HU 8355",
+                        "airline": "CHH"
+                    }
+                ],
+                "status": "Dep 21:18",
+                "statusCode": null,
+                "destination": [
+                    "PVG"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "21"
+            },
+            {
+                "time": "21:25",
+                "flight": [
+                    {
+                        "no": "AK 131",
+                        "airline": "AXM"
+                    }
+                ],
+                "status": "Dep 21:21",
+                "statusCode": null,
+                "destination": [
+                    "KUL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "40"
+            },
+            {
+                "time": "21:30",
+                "flight": [
+                    {
+                        "no": "EK 385",
+                        "airline": "UAE"
+                    }
+                ],
+                "status": "Dep 21:33",
+                "statusCode": null,
+                "destination": [
+                    "BKK",
+                    "DXB"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "60"
+            },
+            {
+                "time": "21:40",
+                "flight": [
+                    {
+                        "no": "CX 448",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 21:42",
+                "statusCode": null,
+                "destination": [
+                    "KHH"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "19"
+            },
+            {
+                "time": "21:55",
+                "flight": [
+                    {
+                        "no": "CX 939",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 21:59",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "29"
+            },
+            {
+                "time": "22:05",
+                "flight": [
+                    {
+                        "no": "AF 185",
+                        "airline": "AFR"
+                    },
+                    {
+                        "no": "KL 2157",
+                        "airline": "KLM"
+                    },
+                    {
+                        "no": "QF 4223",
+                        "airline": "QFA"
+                    }
+                ],
+                "status": "Dep 22:11",
+                "statusCode": null,
+                "destination": [
+                    "CDG"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "44"
+            },
+            {
+                "time": "22:05",
+                "flight": [
+                    {
+                        "no": "5J 115",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "Dep 22:08",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "10"
+            },
+            {
+                "time": "22:10",
+                "flight": [
+                    {
+                        "no": "FD 503",
+                        "airline": "AIQ"
+                    }
+                ],
+                "status": "Dep 22:00",
+                "statusCode": null,
+                "destination": [
+                    "DMK"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "42"
+            },
+            {
+                "time": "22:15",
+                "flight": [
+                    {
+                        "no": "CX 251",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 22:21",
+                "statusCode": null,
+                "destination": [
+                    "LHR"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "3"
+            },
+            {
+                "time": "22:25",
+                "flight": [
+                    {
+                        "no": "LX 139",
+                        "airline": "SWR"
+                    },
+                    {
+                        "no": "CX 6633",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 22:46",
+                "statusCode": null,
+                "destination": [
+                    "ZRH"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "26"
+            },
+            {
+                "time": "22:30",
+                "flight": [
+                    {
+                        "no": "5J 121",
+                        "airline": "CEB"
+                    }
+                ],
+                "status": "Dep 23:30",
+                "statusCode": null,
+                "destination": [
+                    "CRK"
+                ],
+                "terminal": "T1",
+                "aisle": "L",
+                "gate": "20"
+            },
+            {
+                "time": "22:30",
+                "flight": [
+                    {
+                        "no": "UA 878",
+                        "airline": "UAL"
+                    }
+                ],
+                "status": "Dep 23:14",
+                "statusCode": null,
+                "destination": [
+                    "SFO"
+                ],
+                "terminal": "T1",
+                "aisle": "G",
+                "gate": "47"
+            },
+            {
+                "time": "22:45",
+                "flight": [
+                    {
+                        "no": "CX 271",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 23:15",
+                "statusCode": null,
+                "destination": [
+                    "AMS"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "65"
+            },
+            {
+                "time": "22:45",
+                "flight": [
+                    {
+                        "no": "HX 761",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "TK 9227",
+                        "airline": "THY"
+                    }
+                ],
+                "status": "Dep 22:44",
+                "statusCode": null,
+                "destination": [
+                    "BKK"
+                ],
+                "terminal": "T1",
+                "aisle": "K",
+                "gate": "70"
+            },
+            {
+                "time": "22:50",
+                "flight": [
+                    {
+                        "no": "CX 237",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 23:23",
+                "statusCode": null,
+                "destination": [
+                    "LHR"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "9"
+            },
+            {
+                "time": "22:50",
+                "flight": [
+                    {
+                        "no": "CX 261",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 22:53",
+                "statusCode": null,
+                "destination": [
+                    "CDG"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "33"
+            },
+            {
+                "time": "22:50",
+                "flight": [
+                    {
+                        "no": "CX 408",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 23:14",
+                "statusCode": null,
+                "destination": [
+                    "TPE"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "43"
+            },
+            {
+                "time": "22:55",
+                "flight": [
+                    {
+                        "no": "PR 311",
+                        "airline": "PAL"
+                    }
+                ],
+                "status": "Dep 23:07",
+                "statusCode": null,
+                "destination": [
+                    "MNL"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "15"
+            },
+            {
+                "time": "22:55",
+                "flight": [
+                    {
+                        "no": "CX 255",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 23:28",
+                "statusCode": null,
+                "destination": [
+                    "LHR"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "23"
+            },
+            {
+                "time": "23:00",
+                "flight": [
+                    {
+                        "no": "TK 071",
+                        "airline": "THY"
+                    },
+                    {
+                        "no": "HX 3671",
+                        "airline": "CRK"
+                    },
+                    {
+                        "no": "NZ 4851",
+                        "airline": "ANZ"
+                    }
+                ],
+                "status": "Dep 23:04",
+                "statusCode": null,
+                "destination": [
+                    "IST"
+                ],
+                "terminal": "T1",
+                "aisle": "D",
+                "gate": "45"
+            },
+            {
+                "time": "23:10",
+                "flight": [
+                    {
+                        "no": "BA 032",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "Dep 23:42",
+                "statusCode": null,
+                "destination": [
+                    "LHR"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "62"
+            },
+            {
+                "time": "23:20",
+                "flight": [
+                    {
+                        "no": "BA 028",
+                        "airline": "BAW"
+                    }
+                ],
+                "status": "Dep 23:29",
+                "statusCode": null,
+                "destination": [
+                    "LHR"
+                ],
+                "terminal": "T1",
+                "aisle": "J",
+                "gate": "34"
+            },
+            {
+                "time": "23:25",
+                "flight": [
+                    {
+                        "no": "CX 289",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "LH 7015",
+                        "airline": "DLH"
+                    }
+                ],
+                "status": "Dep 23:32",
+                "statusCode": null,
+                "destination": [
+                    "FRA"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "63"
+            },
+            {
+                "time": "23:25",
+                "flight": [
+                    {
+                        "no": "LH 797",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "CX 6799",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "NZ 4213",
+                        "airline": "ANZ"
+                    }
+                ],
+                "status": "Dep 23:45",
+                "statusCode": null,
+                "destination": [
+                    "FRA"
+                ],
+                "terminal": "T1",
+                "aisle": "F",
+                "gate": "46"
+            },
+            {
+                "time": "23:30",
+                "flight": [
+                    {
+                        "no": "CX 219",
+                        "airline": "CPA"
+                    }
+                ],
+                "status": "Dep 23:45",
+                "statusCode": null,
+                "destination": [
+                    "MAN"
+                ],
+                "terminal": "T1",
+                "aisle": "C",
+                "gate": "69"
+            },
+            {
+                "time": "23:55",
+                "flight": [
+                    {
+                        "no": "CX 101",
+                        "airline": "CPA"
+                    },
+                    {
+                        "no": "AY 5093",
+                        "airline": "FIN"
+                    },
+                    {
+                        "no": "QR 5810",
+                        "airline": "QTR"
+                    },
+                    {
+                        "no": "OM 5615",
+                        "airline": "MGL"
+                    },
+                    {
+                        "no": "BA 4131",
+                        "airline": "BAW"
+                    },
+                    {
+                        "no": "LH 7003",
+                        "airline": "DLH"
+                    },
+                    {
+                        "no": "LX 9503",
+                        "airline": "SWR"
+                    }
+                ],
+                "status": "Dep 01:11 (11/09/2023)",
+                "statusCode": null,
+                "destination": [
+                    "SYD"
+                ],
+                "terminal": "T1",
+                "aisle": "A",
+                "gate": "1"
+            },
+            {
+                "time": "23:55",
+                "flight": [
+                    {
+                        "no": "UO 624",
+                        "airline": "HKE"
+                    }
+                ],
+                "status": "Dep 00:15 (11/09/2023)",
+                "statusCode": null,
+                "destination": [
+                    "HND"
+                ],
+                "terminal": "T1",
+                "aisle": "H",
+                "gate": "10"
+            }
+        ]
+    }
+]

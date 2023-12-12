@@ -13,7 +13,8 @@ async def loading_animation():
 
 async def analyse_process(loop):
     # The question we are handling
-    fa = Question1(loop)
+    # fa = Question1(loop)
+    fa = Question3(loop)
 
     # Input section
     interval = 90
@@ -23,7 +24,11 @@ async def analyse_process(loop):
     # await fa.solver1(interval=interval, arrival=True)
     # await fa.solver1(interval=interval, arrival=False)
     # await fa.solver2(interval=interval, arrival=True)
-    await fa.solver3(interval=interval, arrival=True)
+    # await fa.solver3(interval=interval, arrival=True)
+    # await fa.solver(arrival=False)
+    # await fa.solver2(arrival=False)
+    # await fa.solver3(skip_date="2023-11-01")
+    await fa.solver(arrival=False)
 
     end_time = time.time()
     print(f"\r--- {round(end_time - start_time, 2)}s elapsed ---")

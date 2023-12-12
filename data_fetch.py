@@ -10,10 +10,10 @@ async def main(loop):
         require_date = today - timedelta(i)
         
         arrival_data = await client.fetch_arrival(require_date)
+        departure_data = await client.fetch_departure(require_date)
         with open(f"arrival\\{require_date.strftime('%Y-%m-%d')}.json", "w") as f:
             json.dump(arrival_data, f, indent=4, cls=CustomEncoder)
         
-        departure_data = await client.fetch_departure(require_date)
         with open(f"departure\\{require_date.strftime('%Y-%m-%d')}.json", "w") as f:
             json.dump(departure_data, f, indent=4, cls=CustomEncoder)
 

@@ -59,6 +59,40 @@ class Fetcher:
         else:
             res = await self.__dynamic_fetch_departure(date)
             return res
+        
+    async def fetch_airport_info(self):
+        """
+            Returns airport codes and its corresponding locations
+        """
+        import csv
+
+        async with self.session.get("https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv") as response:
+            text = await response.text()
+            country_mapping = [row for row in csv.DictReader(text.split('\n'))]
+            country_mapping = dict(
+                zip(
+                    [row["alpha-2"] for row in country_mapping],
+                    [row["name"] for row in country_mapping]
+                )
+            )
+
+        async with self.session.get("https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv") as response:
+            text = await response.text()
+            airport_location = [row for row in csv.DictReader(text.split('\r\n'))]
+
+
+        airport_info = {}
+        for row in airport_location:
+            if row["iata_code"]:
+                try:
+                    airport_info[row["iata_code"]] = dict(row | {"name": country_mapping[row["iso_country"]]})
+                except:
+                    # Fallback code
+                    # Ignore errors
+                    airport_info[row["iata_code"]] = dict(row | {"name": None})
+                    pass
+
+        return airport_info
     
     async def close(self):
         await self.session.close()
@@ -105,26 +139,37 @@ class FlightAnalyser:
     interval: int # The interval to be checked
     timezone: int # offset from utc
     client: Fetcher
-    fixed_date: date = datetime(2023, 11, 14, 23, 59, 59, 0, timezone(timedelta(hours=8)))
-
-    def correct_data(self, delays: list[int], threshold=6) -> list[int]:
-        from statistics import stdev, mean
-        from math import floor, ceil
-        sd = stdev(delays)
-        mn = mean(delays)
-        lb, rb = floor(mn - threshold * sd), ceil(mn + threshold * sd)
-
-        res = []
-        for delay in delays:
-            if lb <= delay and delay <= rb:
-                res.append(delay)
-        return res
-
+    fixed_date: datetime = datetime(2023, 11, 14, 23, 59, 59, 0, timezone(timedelta(hours=8)))
 
     def __init__(self, loop, mode: Literal["static", "dynamic"] = "static"):
         self.client = Fetcher(loop, mode)
 
-    async def fetch_arrival(self, interval: int, tz=8):
+    def correct_data(self, delays, constant):
+        """
+            Correct the data by removing absoulted values larger than constant * s.d.
+        """
+        from statistics import stdev
+        res = []
+        sd = stdev(delays)
+        for data in delays:
+            if -constant * sd <= data and data <= constant * sd:
+                res.append(data)
+        return res
+
+    def calculate_distance(self, src, dest):
+        # Approximate radius of earth in km
+        r = 6373.0
+
+        from math import sin, cos, sqrt, asin, radians
+        src_lat, src_lon = list(map(lambda v: radians(float(v)), src.split(", ")))
+        dest_lat, dest_lon = list(map(lambda v: radians(float(v)), dest.split(", ")))
+        
+        dlat = dest_lat - src_lat
+        dlon = dest_lon - src_lon
+
+        return 2 * r * asin(sqrt(pow(sin(dlat / 2), 2) + cos(src_lat) * cos(dest_lat) * pow(sin(dlon / 2), 2)))
+
+    async def fetch_arrival(self, interval: int, tz=8) -> list[Flight]:
         """
             Fetches arrival flights and organize the data obtained
         """
@@ -174,7 +219,7 @@ class FlightAnalyser:
         flights = sorted(list(flights))
         return flights
         
-    async def fetch_departure(self, interval: int, tz=8):
+    async def fetch_departure(self, interval: int, tz=8) -> list[Flight]:
         """
             Fetches departure flights and organize the data obtained
         """
@@ -219,79 +264,12 @@ class FlightAnalyser:
     
     async def finish(self):
         await self.client.close()
-    
 
-        '''
-        lb = min(delays) - min(delays) % bin_size
-        rb = max(delays) + (bin_size - max(delays) % bin_size) % bin_size + 1
-
-        counts, bins = np.histogram(delays, bins=list(range(lb, rb, bin_size)))
-        for i in range(len(counts)):
-            if counts[i] < threshold:
-                counts[i] = 0
-        
-        update_flag = False
-        ulb = 0x3f3f3f3f
-        urb = 0x3f3f3f3f
-        for i in range(len(counts)):
-            if counts[i]:
-                urb = i + 1
-                rb = bins[i] + bin_size + 1
-                if not update_flag:
-                    ulb = i
-                    lb = bins[i]
-                    update_flag = True
-
-
-        if ulb == urb and ulb == 0x3f3f3f3f:
-            raise ValueError("Threshold too large, can't display anything")
-    
-        counts = counts[ulb:urb]
-        bins = bins[ulb:urb + 1]
-
-        # x = list(range(lb, rb))
-        # y = list(map(lambda p: 0 if counter[p] < threshold else counter[p], counter))
-        # sample_points = list(map(lambda t: list(t), list(zip(x, y))))
-        
-        # model = np.poly1d(np.polyfit(x, y, 20))
-        # line = np.linspace(lb, rb, 1000)
-
-        # df = pd.DataFrame({
-        #     "minute(s)": list(range(lb, rb)),
-        #     "count": list(map(lambda x: counter[x], counter))
-        # })
-        # print(df)
-        # df.plot(x="minute(s)", y="count", kind="line")
-
-        # plt.plot(x, y, color="blue")
-        # plt.hist(delays, bins=list(range(lb, rb, bin)))
-        # plt.plot(line, model(line), color="red")
-        # print("OK")
-        plt.hist(bins[:-1], bins, weights=counts)
-        # quantiles = statistics.quantiles(delays, 10)
-        
-        popper = []
-        for i in range(len(delays)):
-            if delays[i] not in range(lb, rb):
-                # print(delays[i])
-                popper.append(delays[i])
-        for item in popper:
-            delays.remove(item)
-
-
-        
-        norm_func = statistics.NormalDist.from_samples(delays)
-        print(norm_func.stdev, norm_func.mean, norm_func.median, statistics.median(delays), statistics.mean(delays), statistics.stdev(delays))
-        plt.plot(list(range(lb, rb, bin_size)), list(map(lambda v: len(delays) * norm_func.pdf(v), list(range(lb, rb, bin_size)))), color="red")
-
-        plt.xlabel("minute(s)")
-        plt.ylabel("count")
-        '''
 class Question1(FlightAnalyser):
     def __init__(self, loop):
         super().__init__(loop)
             
-    async def solver1(self, interval: int, arrival: bool):
+    async def solver1(self, interval: int = 90, arrival: bool = True):
         """
             Problem: What are the statistics of delays of the flights for the last 90 days?
 
@@ -322,7 +300,7 @@ class Question1(FlightAnalyser):
 
         print(df)
         
-    async def solver2(self, interval: int, arrival: bool):
+    async def solver2(self, interval: int = 90, arrival: bool = True):
         """
             Problem: Output the diagram of the data.
 
@@ -334,7 +312,6 @@ class Question1(FlightAnalyser):
                 True if asking for arrival flights, else asking for departure flights
         """
         import matplotlib.pyplot as plt
-        from statistics import NormalDist
 
         # fetch data
         flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
@@ -349,22 +326,15 @@ class Question1(FlightAnalyser):
         for delay in delays:
             counter[delay] += 1
 
-        plt.plot(list(range(min(delays), max(delays) + 1)), list(counter.values()))
+        plt.bar(list(range(min(delays), max(delays) + 1)), list(counter.values()))
         
-        norm_func = NormalDist.from_samples(delays)
-        plt.plot(
-            list(range(min(delays), max(delays) + 1)), 
-            list(map(
-                lambda v: len(delays) * norm_func.pdf(v), 
-                list(range(min(delays), max(delays) + 1))
-            )), 
-            color="red"
-        )
+        plt.title("Flight Delay Distribution")
+        plt.xlabel("Delay (in minutes)")
+        plt.ylabel("Count")
 
-    async def solver3(self, interval: int, arrival: bool, bin_size: int = 10):
+    async def solver3(self, interval: int = 90, arrival: bool = True, bin_size: int = 5):
         """
-            Problem: If outliers are removed, how would be the diagram look? Define outliers > mean + (5 sd) or < mean - (5 sd) 
-
+            What if the data are binned?
             Parameters
             ----------
             interval: int
@@ -373,9 +343,6 @@ class Question1(FlightAnalyser):
                 True if asking for arrival flights, else asking for departure flights
         """
         import matplotlib.pyplot as plt
-        from statistics import stdev, mean, median, mode, NormalDist
-        from math import ceil, floor
-        import pandas as pd
         import numpy as np
 
         # fetch data
@@ -389,36 +356,420 @@ class Question1(FlightAnalyser):
         lb, rb = min(delays), max(delays)
 
         counts, bins = np.histogram(delays, list(range(lb, rb + bin_size, bin_size)))
-        avg_bins = [(bins[i] + bins[i + 1]) / 2 for i in range(len(bins) - 1)]
 
         plt.hist(bins[:-1], bins, weights=counts)
         
-        binned_data = []
-        for i in range(len(bins) - 1):
-            avg = (bins[i] + bins[i + 1]) / 2
-            binned_data += [avg] * counts[i]
+        plt.title("Flight Delays Distribution (Binned)")
+        plt.xlabel("Delay (in minutes)")
+        plt.ylabel("Count")
 
-        norm_func = NormalDist.from_samples(binned_data)
-        plt.plot(
-            list(range(min(delays), max(delays) + 1)), 
-            list(map(
-                lambda v: len(binned_data) * norm_func.pdf(v), 
-                list(range(min(delays), max(delays) + 1))
-            )), 
-            color="red"
+class Question2(FlightAnalyser):
+    def __init__(self, loop):
+        super().__init__(loop)
+
+    async def solver1(self, interval: int = 90, arrival: bool = True):
+        """
+            Problem: What are the common destination / origin of flights for the past 90 days?
+
+            Parameters
+            ----------
+            interval: int
+                The number of days to be checked.
+            arrival: bool
+                True if asking for arrival flights, else asking for departure flights
+        """
+        import cartopy.crs as ccrs
+        import cartopy.io.shapereader as shpreader
+        import cartopy.feature as cf
+        import matplotlib.pyplot as plt
+        import matplotlib as mpl
+
+        cmap = mpl.colormaps.get_cmap('tab20')
+
+        airport_info = await self.client.fetch_airport_info()
+        
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+        ax = plt.axes(projection=ccrs.PlateCarree())
+        countries_shp = shpreader.natural_earth(resolution='10m',
+                                            category='cultural', name='admin_0_countries')
+        special_regions_shp = shpreader.natural_earth(resolution='10m',
+                                                      category='cultural', name='admin_0_map_units')
+        taiwan_shp = shpreader.natural_earth(resolution='10m',
+                                                      category='cultural', name='admin_0_disputed_areas')
+        
+        country_counter = dict.fromkeys(
+            list(map(lambda v: v.attributes['WB_A2'], shpreader.Reader(countries_shp).records())) +
+            list(map(lambda v: v.attributes['WB_A2'], shpreader.Reader(special_regions_shp).records())) + ['TW'],
+            0
         )
 
-        # model = np.poly1d(np.polyfit(avg_bins, counts, 4))
-        # line = np.linspace(min(delays), max(delays), 1000)
+        # Mark down the flight origin / destination
+        for flight in flights:
+            destinations = flight.airports
+            for dest in destinations:
+                # this is the country that the airport belongs to: airport_info[dest]["name"]
+                country_counter[airport_info[dest]["iso_country"]] += 1
+        
+        maximo = max(country_counter.values())
+        
+        visited = dict.fromkeys(
+            list(map(lambda v: v.attributes['WB_A2'], shpreader.Reader(countries_shp).records())) +
+            list(map(lambda v: v.attributes['WB_A2'], shpreader.Reader(special_regions_shp).records())) + ['TW'],
+            False
+        )
+        
+        # Loop normal countries
+        for country in shpreader.Reader(countries_shp).records():
+            nome = country.attributes['WB_A2']
+            if visited[nome]:
+                continue
+            else:
+                visited[nome] = True
+            
+            numero = country_counter[nome]
+            if numero != 0:
+                ax.add_geometries(country.geometry, ccrs.PlateCarree(),
+                            facecolor=cmap(numero / float(maximo), 1),
+                            label=nome)
 
-        # plt.plot(line, model(line))
+        # Loop small regions
+        for country in shpreader.Reader(special_regions_shp).records():
+            nome = country.attributes['WB_A2']
+            if visited[nome]:
+                continue
+            else:
+                visited[nome] = True
 
+            numero = country_counter[nome]
+            if numero != 0:
+                ax.add_geometries(country.geometry, ccrs.PlateCarree(),
+                            facecolor=cmap(numero / float(maximo), 1),
+                            label=nome)
+        
+        # Special handle Taiwan
+        for country in shpreader.Reader(taiwan_shp).records():
+            if (country.attributes['NAME_LONG'] == "Taiwan"):
+                # print(country.attributes)
+                nome = 'TW'
+                numero = country_counter[nome]
+                if numero != 0:
+                    ax.add_geometries(country.geometry, ccrs.PlateCarree(),
+                                facecolor=cmap(numero / float(maximo), 1),
+                                label=nome)
+                break
+        
+        # Add coastlines and borders
+        ax.coastlines()
+        ax.add_feature(cf.BORDERS)
 
+        plt.colorbar(mpl.cm.ScalarMappable(cmap=cmap), ax=ax)
+        plt.title(f"Common {'Origins' if arrival else 'Destinations'} of Flights {'from' if arrival else 'to'} Hong Kong")
 
+    async def solver2(self, interval: int = 90, arrival: bool = True):
+        """
+            Problem: What if we visualize the data in bar chart? We only visulalize top 10 destinations / origins.
 
+            Parameters
+            ----------
+            interval: int
+                The number of days to be checked.
+            arrival: bool
+                True if asking for arrival flights, else asking for departure flights
+        """
+        import matplotlib.pyplot as plt
 
+        airport_info = await self.client.fetch_airport_info()
+        
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+        
+        country_counter = dict.fromkeys(
+            [airport_info[country]["name"] for country in airport_info],
+            0
+        )
 
+        # Mark down the flight origin / destination
+        for flight in flights:
+            destinations = flight.airports
+            for dest in destinations:
+                # this is the country that the airport belongs to: airport_info[dest]["name"]
+                country_counter[airport_info[dest]["name"]] += 1
 
+        arr = sorted(country_counter.items(), key=lambda v: v[1])[-20:]
+        keys = list(map(lambda v: v[0], arr))
+        values = list(map(lambda v: v[1], arr))
 
+        plt.title(f"Number of Flights {'from' if arrival else 'to'} Hong Kong Group by {'Origin' if arrival else 'Destination'}")
+        plt.barh(keys, values)
+        plt.xlabel("Country")
+        plt.ylabel("Flight Count")
 
+    async def solver3(self, interval: int = 90, arrival: bool = True):
+        """
+            Problem: What if we group by continents?
 
+            Parameters
+            ----------
+            interval: int
+                The number of days to be checked.
+            arrival: bool
+                True if asking for arrival flights, else asking for departure flights
+        """
+        import matplotlib.pyplot as plt
+
+        airport_info = await self.client.fetch_airport_info()
+        
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+        
+        country_counter = dict.fromkeys(
+            [airport_info[country]["continent"] for country in airport_info],
+            0
+        )
+
+        # Mark down the flight origin / destination
+        for flight in flights:
+            destinations = flight.airports
+            for dest in destinations:
+                # this is the country that the airport belongs to: airport_info[dest]["name"]
+                country_counter[airport_info[dest]["continent"]] += 1
+
+        continent_long_name = {
+            "EU": "Europe",
+            "SA": "South America",
+            "AN": "Antarctica",
+            "AS": "Asia",
+            "AF": "Africa",
+            "NA": "North America",
+            "OC": "Oceania"
+        }
+
+        plt.title(f"Number of Flights {'from' if arrival else 'to'} Hong Kong Group by {'Origin' if arrival else 'Destination'}")
+        plt.barh(list(map(lambda v: continent_long_name[v], country_counter.keys())), list(country_counter.values()))
+        plt.xlabel("Country")
+        plt.ylabel("Flight Count")
+
+class Question3(FlightAnalyser):
+    def __init__(self, loop):
+        super().__init__(loop)
+
+    async def solver(self, interval: int = 90, arrival: bool = True):
+        import matplotlib.pyplot as plt
+        import numpy as np
+
+        airport_info = await self.client.fetch_airport_info()
+
+        hkg = airport_info["HKG"]
+
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+        dists = []
+        delays = []
+        for flight in flights:
+            target_airport = airport_info[flight.airports[0]]
+            # Only consider the FIRST destination
+            dist = self.calculate_distance(target_airport["coordinates"] if arrival else hkg["coordinates"], hkg["coordinates"] if arrival else target_airport["coordinates"])
+            delay = int((datetime.fromisoformat(flight.act_time) - datetime.fromisoformat(flight.est_time)).total_seconds() // 60)
+
+            if delay >= 300:
+                dists.append(dist)
+                delays.append(delay)
+
+        # counts, bins = np.histogram(dists, list(range(0, 20000, 2000)))
+        # plt.hist(bins[:-1], bins, weights=counts)
+        plt.scatter(dists, delays)
+
+        plt.title("Distance Against Number of Flights That Have a Delay Larger Than 300 Minutes")
+        plt.xlabel("Distance (in kilometers)")
+        plt.ylabel("Delay (in minutes)")
+
+class Question4(FlightAnalyser):
+    def __init__(self, loop):
+        super().__init__(loop)
+
+    async def solver(self, interval: int = 90, arrival: bool = True):
+        import matplotlib.pyplot as plt
+
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+        times = []
+        delays = []
+        for flight in flights:
+            est_time = datetime.fromisoformat(flight.est_time)
+            clock = est_time.time()
+            time_from_zero = clock.hour * 3600 + clock.minute * 60 + clock.second
+            delay = int((datetime.fromisoformat(flight.act_time) - datetime.fromisoformat(flight.est_time)).total_seconds() // 60)
+
+            times.append(time_from_zero)
+            delays.append(delay)
+
+        plt.scatter(times, delays)
+        plt.xlabel("Estimated Arrival Time Away from 00:00 (in minutes)")
+        plt.ylabel("Delays (in minutes)")
+        
+class Question5(FlightAnalyser):
+    def __init__(self, loop):
+        super().__init__(loop)
+
+    async def solver(self, interval: int = 90, arrival: bool = True):
+        import matplotlib.pyplot as plt
+        import numpy as np
+
+        airport_info = await self.client.fetch_airport_info()
+
+        hkg = airport_info["HKG"]
+
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+        dists = []
+        for flight in flights:
+            target_airport = airport_info[flight.airports[0]]
+            # Only consider the FIRST destination
+            dist = self.calculate_distance(target_airport["coordinates"] if arrival else hkg["coordinates"], hkg["coordinates"] if arrival else target_airport["coordinates"])
+            dists.append(dist)
+
+        counts, bins = np.histogram(dists, list(range(0, 20000, 2000)))
+        plt.hist(bins[:-1], bins, weights=counts)
+
+        plt.xlabel("Distance (in kilometers)")
+        plt.ylabel("Flight Count")
+            
+# class Question6(FlightAnalyser):
+#     def __init__(self, loop):
+#         super().__init__(loop)
+
+#     async def solver(self, interval: int = 90, arrival: bool = True):
+#         import matplotlib.pyplot as plt
+
+#         cmap = plt.get_cmap("plasma")
+#         pairer = {
+#             "EU": 0,
+#             "SA": 0.126,
+#             "AN": 0.251,
+#             "AS": 0.376,
+#             "AF": 0.501,
+#             "NA": 0.626,
+#             "OC": 0.751
+#         }
+
+#         airport_info = await self.client.fetch_airport_info()
+
+#         hkg = airport_info["HKG"]
+
+#         flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+#         for continent in pairer:
+#             dists = []
+#             times = []
+#             for flight in flights:
+#                 # Only consider the FIRST destination
+#                 target_airport = airport_info[flight.airports[0]]
+#                 if target_airport["continent"] == continent:
+#                     dist = self.calculate_distance(target_airport["coordinates"] if arrival else hkg["coordinates"], hkg["coordinates"] if arrival else target_airport["coordinates"])
+                    
+#                     est_time = datetime.fromisoformat(flight.act_time)
+#                     clock = est_time.time()
+#                     time_from_zero = clock.hour * 3600 + clock.minute * 60 + clock.second
+                    
+#                     dists.append(dist)
+#                     times.append(time_from_zero)
+#                     dists.append(dist)
+#                     times.append(time_from_zero + 24 * 3600)
+#             plt.scatter(times, dists, color=cmap(pairer[continent], 1))
+        
+#         plt.xlabel("Estimated Arrival Time away from 00:00 (in minutes)")
+#         plt.ylabel("Distance (in kilometers)")
+
+class Question6(FlightAnalyser):
+    def __init__(self, loop):
+        super().__init__(loop)
+
+    async def solver1(self, interval: int = 90, arrival: bool = True):
+        import matplotlib.pyplot as plt
+
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+        timeslots = [0] * 24 * 90
+
+        for flight in flights:
+            est_time = datetime.fromisoformat(flight.est_time)
+
+            hour = est_time.hour
+            day = interval - (self.fixed_date.date() - est_time.date()).days - 1
+            timeslots[day * 24 + hour] += 1
+
+        plt.plot(list(range(24 * 90)), timeslots)
+        
+        plt.xlabel("Timeslot (Delta hour from 2023-08-17 00:00)")
+        plt.ylabel("Flight Count")
+
+    async def solver2(self, interval: int = 90, arrival: bool = True):
+        import matplotlib.pyplot as plt
+        import numpy as np
+
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+        timeslots = [0] * 24 * interval
+
+        for flight in flights:
+            est_time = datetime.fromisoformat(flight.act_time)
+
+            hour = est_time.hour
+            day = interval - (self.fixed_date.date() - est_time.date()).days - 1
+            timeslots[day * 24 + hour] += 1
+
+        x = list(range(24))
+        y = [sum([timeslots[i] for i in range(x, 24 * interval, 24)]) / interval for x in range(24)]
+        plt.plot(x, y)
+
+        mymodel = np.poly1d(np.polyfit(x, y, 12))
+        myline = np.linspace(0, 23, 100)
+        plt.plot(myline, mymodel(myline), color="red")
+
+        plt.xlabel("Timeslot (Delta hour from 2023-08-17 00:00)")
+        plt.ylabel("Flight Count")
+
+    async def solver3(self, interval: int = 90, arrival: bool = True, skip_date: str = "2023-08-17"):
+        import matplotlib.pyplot as plt
+        import numpy as np
+        import pandas as pd
+
+        flights = await self.fetch_arrival(interval) if arrival else await self.fetch_departure(interval)
+
+        timeslots = [0] * 24 * interval
+
+        actual_data = [0] * 24
+        for flight in flights:
+            est_time = datetime.fromisoformat(flight.act_time)
+            hour = est_time.hour
+
+            if datetime.fromisoformat(flight.act_time).date().isoformat() == skip_date:
+                actual_data[hour] += 1
+            else:
+                day = interval - (self.fixed_date.date() - est_time.date()).days - 1
+                timeslots[day * 24 + hour] += 1
+
+        x = list(range(24))
+        y = [sum([timeslots[i] for i in range(x, 24 * interval, 24)]) / (interval - 1) for x in range(24)]
+        
+        plt.bar(x, actual_data)
+
+        plt.xlabel("Timeslot (Delta hour from 2023-08-17 00:00)")
+        plt.ylabel("Flight Count")
+
+        mymodel = np.poly1d(np.polyfit(x, y, 12))
+        myline = np.linspace(0, 23, 24)
+
+        estimated_data = list(map(round, mymodel(myline)))
+        error = [estimated_data[x] - actual_data[x] for x in range(24)]
+
+        plt.plot(myline, estimated_data, color="red")
+
+        df = pd.DataFrame(
+            {
+                "Estimated Data" : estimated_data,
+                "Actual Data" : actual_data,
+                "Error" : error
+            }
+        )
+        print(df)
+        print(f"Average Error: {sum(error) / len(error)}")

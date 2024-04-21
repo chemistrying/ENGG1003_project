@@ -13,10 +13,6 @@ policy and regulations, as contained in the website.
 University Guideline on Academic Honesty:
 https://www.cuhk.edu.hk/policy/academichonesty/
 
-Student Name : Cheung Yik Fung
-
-Student ID : 1155211679
-
 Class/Section : ENGG1003EC
 
 Date : 12-12-2023
